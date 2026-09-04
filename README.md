@@ -17,7 +17,7 @@ This repository holds the complete pipeline, from raw-read retrieval to the figu
 ├── Genomes_Input/            reference genomes (FASTA + GFF) for both organisms
 │
 ├── Syn1_Transcriptomics/     syn1 PacBio + ONT (2 runs) + Illumina: read processing, isoforms
-├── Syn3A_Transcriptomics/    syn3A ONT + Illumina: read processing
+├── Syn3A_Transcriptomics/    syn3A ONT + Illumina: read processing, isoforms
 ├── Syn1_Syn3A_Transcriptomics/  per-gene TPM for every library of both organisms,
 │                             and the cross-platform comparison panels
 │
@@ -121,7 +121,7 @@ Run the stages in this order; each folder's scripts read the outputs of the stag
 
 1. **Retrieve raw reads** — bash scripts in the `*_Raw/` folders download FASTQs from the NCBI SRA (`*_Transcriptomics/{PacBio,Illumina,ONT}/*_Raw/`).
 2. **Process reads** — the `*_Processing/` folders map reads (minimap2 for long reads, bowtie2 for Illumina), sort/index with samtools, and emit per-strand depth bedGraphs. The syn1 ONT folder processes both runs separately (`syn1.ONT.rep{1,2}.sorted.bam`) plus a merged browser track; run 2 is sequenced 3′→5′ and is reoriented during mapping.
-3. **Cluster isoforms** — `Isoforms_PacBio/` (syn1) and `Isoform_Cluster/` (syn3A) collapse full-length PacBio reads into isoform clusters.
+3. **Cluster isoforms** — one per organism, same algorithm and parameters: `Syn1_Transcriptomics/Isoforms_PacBio/` collapses the full-length syn1 PacBio reads, and `Syn3A_Transcriptomics/Isoforms_ONT/` the syn3A ONT reads, into isoform clusters.
 4. **Per-gene TPM and cross-platform comparison** — `Syn1_Syn3A_Transcriptomics/Gene_TPM.py` computes sense and antisense TPM per gene for every library (syn1 Illumina ×3, PacBio, ONT run 1 / run 2 / merged; syn3A Illumina, ONT) from the depth tracks, writing one table per organism: `syn1_TPM.tsv` (911 loci) and `syn3A_TPM.tsv` (496 loci). The platform-agreement panels are built from those two tables. `Calc_Abundances_syn3A.py` then converts the syn3A table into absolute RNA copies per cell (`syn3A_rna_abundances.tsv`) by the Breuer *et al.* 2019 mass balance, which the proteomics stages consume.
 5. **Proteome** — `Syn1_Syn3A_Proteomics/` builds the per-protein relative (iPM) and absolute abundance tables.
 6. **Operons** — `Syn1_Operon/` segments and annotates operons from the isoforms, with promoter and terminator signatures.

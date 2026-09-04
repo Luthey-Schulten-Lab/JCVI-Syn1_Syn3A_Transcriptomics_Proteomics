@@ -1,0 +1,31 @@
+================================================================
+Syn3A absolute RNA abundances (copies per cell)
+================================================================
+cell radius 200 nm, density 1.1 g/ml -> dry weight 1.016e-14 g (10.16 fg)
+assumed RNA dry-mass fraction = 0.16274 of cell dry weight (Breuer et al. 2019)
+assumed rRNA depletion fraction = 0.95 (Ribo-Zero applied: True)
+RNA dry mass = 1.654 fg, partitioned among the four RNA classes:
+  rRNA   80.00% of RNA ->   1.3232 fg, reduced to 0.0662 fg after Ribo-Zero depletion (x0.05)
+  tRNA   14.29% of RNA ->   0.2363 fg
+  mRNA    4.76% of RNA ->   0.0788 fg
+  ncRNA   0.95% of RNA ->   0.0158 fg
+
+Total copies per cell by RNA type:
+  mRNA  :     191.3 total over 458 genes (Illumina_sense_TPM)
+  rRNA  :      63.2 total over 6 genes (ONT_sense_TPM)
+  tRNA  :    5597.6 total over 29 genes (ONT_sense_TPM)
+  ncRNA :      72.8 total over 3 genes (ONT_sense_TPM)
+
+Sanity: total mRNA per cell = 191.3 (M. florum ~420 mRNA; Syn3A expected to be small)
+
+Top 10 mRNAs by copies/cell:
+  JCVISYN3A_0151 nan         7.15 copies  (3.74% of mRNA pool)
+  JCVISYN3A_0779 ptsG        6.01 copies  (3.14% of mRNA pool)
+  JCVISYN3A_0638 rplM        4.68 copies  (2.45% of mRNA pool)
+  JCVISYN3A_0653 rplO        4.35 copies  (2.27% of mRNA pool)
+  JCVISYN3A_0661 rplN        4.30 copies  (2.25% of mRNA pool)
+  JCVISYN3A_0637 rpsI        4.21 copies  (2.20% of mRNA pool)
+  JCVISYN3A_0475 ldh         4.05 copies  (2.12% of mRNA pool)
+  JCVISYN3A_0671 rplC        3.91 copies  (2.04% of mRNA pool)
+  JCVISYN3A_0667 rpsS        3.85 copies  (2.01% of mRNA pool)
+  JCVISYN3A_0668 rplB        3.83 copies  (2.00% of mRNA pool)

@@ -1,0 +1,46 @@
+==========================================================================
+syn1 -- Illumina x3, PacBio Iso-Seq, ONT direct-RNA x2 (+ merged)
+==========================================================================
+loci parsed from syn1.genes.gff3 : 911
+  feature breakdown: gene=911
+  Illumina SRR35996296 : TPM computed
+  Illumina SRR35996297 : TPM computed
+  Illumina SRR35996298 : TPM computed
+  Illumina averaged: sample_95 + sample_enr -> avg_sense_TPM
+  PacBio       : TPM computed
+  ONT rep1   : TPM computed
+  ONT rep2   : TPM computed
+  ONT merged : TPM computed
+
+wrote syn1_TPM.tsv  (911 loci, 44 columns)
+
+-- Illumina replicate agreement (Pearson on log10 TPM, both > 0) --
+  SRR35996296 vs SRR35996297  r = 0.9780   (n = 833, technical)
+  SRR35996296 vs SRR35996298  r = 0.9151   (n = 847, biological)
+  SRR35996297 vs SRR35996298  r = 0.9304   (n = 871, biological)
+
+-- Cross-platform agreement (Pearson on log10 TPM, both > 0) --
+  Illumina    vs PacBio      r = 0.6087   (n = 900)
+  Illumina    vs ONT_rep1    r = 0.6117   (n = 896)
+  Illumina    vs ONT_rep2    r = 0.6151   (n = 896)
+  Illumina    vs ONT_merged  r = 0.6508   (n = 902)
+  PacBio      vs ONT_rep1    r = 0.4679   (n = 899)
+  PacBio      vs ONT_rep2    r = 0.5149   (n = 899)
+  PacBio      vs ONT_merged  r = 0.5010   (n = 905)
+  ONT_rep1    vs ONT_rep2    r = 0.8163   (n = 897)
+  ONT_rep1    vs ONT_merged  r = 0.9639   (n = 903)
+  ONT_rep2    vs ONT_merged  r = 0.9311   (n = 903)
+
+==========================================================================
+syn3A -- Illumina, ONT direct-RNA
+==========================================================================
+loci parsed from syn3a_genome.gff3 : 496
+  feature breakdown: gene=493, pseudogene=3
+  Illumina : TPM computed
+  ONT      : TPM computed
+
+wrote syn3A_TPM.tsv  (496 loci, 16 columns)
+
+-- syn3A agreement (Pearson on log10 TPM, both > 0) --
+  Illumina vs ONT      r = 0.570   rho = 0.558   (n = 496)
+  Illumina vs Palsson  r = 0.998   rho = 0.998   (n = 458, overlap 458 of 458 reported loci)
