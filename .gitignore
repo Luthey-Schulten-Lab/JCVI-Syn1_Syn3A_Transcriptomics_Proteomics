@@ -1,0 +1,87 @@
+# =============================================================================
+# .gitignore  --  written BEFORE the first `git add`.
+# Sequencing data, alignments, indices and depth tracks are NEVER committed.
+# Small result tables (.tsv/.csv) are deliberately NOT ignored, so each can be
+# `git add`ed as its stage is verified.
+# =============================================================================
+
+# ---- raw + aligned sequencing data (SRA: PRJNA1359397) ----
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.sam
+*.bam
+*.bam.bai
+*.bai
+*.cram
+
+# ---- indices / derived reference artefacts (rebuild from the FASTA) ----
+*.bt2
+*.mmi
+*.fai
+*.nin
+*.nsq
+*.nhr
+*.ndb
+*.not
+*.ntf
+*.nto
+*.pdb
+*.pin
+*.psq
+*.phr
+syn1_db/
+homology_*/
+
+# ---- depth / coverage tracks (regenerate from BAM) ----
+*.bedGraph
+*.bw
+*.bigWig
+*.wig
+depth_bedgraph/
+
+# ---- known oversized intermediates (100-500 MB each) ----
+isoform_membership.tsv
+*read_qc.tsv
+blast_hits_*.tsv
+
+# ---- archives ----
+*.tar
+*.tar.gz
+*.tar.bz2
+*.zip
+*.csv.gz
+
+# ---- scratch / superseded / vendored ----
+USELESS/
+OLD/
+REDUNDANT/
+Archive/
+End_Annotation/
+run_logs*/
+note.txt
+TODO.md
+
+# ---- python ----
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.venv/
+
+# ---- LaTeX build cache ----
+*.aux
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.out
+*.log
+
+# ---- editors / OS ----
+.DS_Store
+.~lock.*#
+.vscode/
+.idea/
