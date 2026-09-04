@@ -1,0 +1,61 @@
+# Environment for the JCVI-syn1.0 / JCVI-syn3A transcriptomics + proteomics
+# pipeline. Direct dependencies only, no build strings, so it solves on any machine.
+#
+#     conda env create -f env/environment.yml
+#     conda activate Omics
+#
+# Versions used for the published analysis: env/versions_used.tsv
+name: Omics
+
+channels:
+  - conda-forge
+  - bioconda
+
+dependencies:
+  # ---- interpreter --------------------------------------------------------
+  - python=3.10
+
+  # ---- scientific Python stack -------------------------------------------
+  - numpy=2.2
+  - pandas=2.3
+  - scipy=1.14
+  - matplotlib-base=3.10     # -base: figures are written to PDF/PNG, no GUI toolkit needed
+  - statsmodels=0.14
+  - scikit-learn=1.7
+  - openpyxl=3.1             # pandas ExcelWriter engine for the .xlsx Supplementary Data
+  - plotly=6.6
+  - adjusttext=1.3           # non-overlapping point labels in scatter panels
+  - pypdf2=3.0               # assembles per-panel PDFs into figure sheets
+  - logomaker=0.8            # promoter -10 sequence logos
+
+  # ---- bioinformatics Python ---------------------------------------------
+  - biopython=1.85
+  - pysam=0.22               # BAM access and per-base depth
+  - viennarna=2.6            # provides both `import RNA` and the RNAfold CLI
+  - ostir=1.1                # translation-initiation rates (Syn3A_Corr_RNA_Proteins)
+
+  # ---- notebooks ----------------------------------------------------------
+  - jupyterlab=4.4
+  - ipython=8.37
+
+  # ---- read retrieval and QC ---------------------------------------------
+  - sra-tools=3.4            # fasterq-dump / prefetch, the *_Raw/ stages
+  - fastqc=0.12
+  - multiqc=1.33
+
+  # ---- alignment and read handling ---------------------------------------
+  - minimap2=2.30            # long reads: PacBio Iso-Seq, ONT direct-RNA
+  - bowtie2=2.5              # Illumina short reads
+  - samtools=1.23
+  - bedtools>=2.30
+  - seqkit>=2.1
+  - pigz>=2.6
+
+  # ---- whole-genome alignment (syn1 vs syn3A) ----------------------------
+  # nucmer / delta-filter / show-coords / show-snps / dnadiff.
+  # MUMmer 3, not the 4.0.x line, which has different defaults.
+  - mummer=3.23
+
+  # ---- annotation ---------------------------------------------------------
+  - blast=2.17               # makeblastdb / blastp for Genomes_Input/Homology_Build.py
+  - transtermhp=2.09         # intrinsic terminators -> Syn1_Operon/syn1_TransTermHP.txt

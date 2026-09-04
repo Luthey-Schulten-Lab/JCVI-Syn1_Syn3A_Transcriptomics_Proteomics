@@ -44,11 +44,18 @@ A detailed, file-level map of every script and its outputs lives in [`CLAUDE.md`
 All analysis runs in a single conda environment (Python 3.10):
 
 ```bash
-conda env create -f env/RNAseq.yml
-conda activate RNAseq
+conda env create -f env/environment.yml
+conda activate Omics
 ```
 
-It bundles the Python scientific stack (NumPy, pandas, SciPy, Matplotlib, Biopython, pysam) and the main bioinformatics tools: **minimap2** 2.30, **bowtie2** 2.5.5, **samtools** 1.23, **BLAST+** 2.17, and **ViennaRNA** 2.6.4. Two tools are installed separately — **SRA-Toolkit** (read download) and **TransTermHP** (terminator prediction) — see [`env/extra_softwares.txt`](env/extra_softwares.txt).
+It provides the Python scientific stack and every command-line tool the pipeline calls:
+minimap2 and bowtie2 for mapping, samtools, bedtools and seqkit for read handling,
+MUMmer for the syn1↔syn3A genome alignment, BLAST+, ViennaRNA, OSTIR, SRA-Toolkit,
+TransTermHP, and FastQC/MultiQC for read QC. Everything is a conda package — there is no
+system or pip install step.
+
+The exact versions used for the published analysis are recorded in
+[`env/versions_used.tsv`](env/versions_used.tsv).
 
 ---
 

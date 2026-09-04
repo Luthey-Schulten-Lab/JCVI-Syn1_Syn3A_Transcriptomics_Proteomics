@@ -1,0 +1,913 @@
+##gff-version 3
+##sequence-region CP002027.1 1 1078516
+CP002027.1	syn1_summary	gene	1	1353	.	+	.	ID=gene:MMSYN1_0001;Name=dnaA_1;locus_tag=MMSYN1_0001;gene=dnaA_1;product=chromosomal replication initiator protein DnaA;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1511	2638	.	+	.	ID=gene:MMSYN1_0002;Name=dnaN;locus_tag=MMSYN1_0002;gene=dnaN;product=DNA polymerase III_ beta subunit;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	2675	3217	.	+	.	ID=gene:MMSYN1_0003;Name=rnmV;locus_tag=MMSYN1_0003;gene=rnmV;product=ribonuclease M5;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	3207	4007	.	+	.	ID=gene:MMSYN1_0004;Name=ksgA;locus_tag=MMSYN1_0004;gene=ksgA;product=dimethyladenosine transferase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	4064	5155	.	+	.	ID=gene:MMSYN1_0005;Name=;locus_tag=MMSYN1_0005;product=hypothetical purine NTPase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	5515	7419	.	+	.	ID=gene:MMSYN1_0006;Name=gyrB;locus_tag=MMSYN1_0006;gene=gyrB;product=DNA gyrase_ B subunit;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	7435	9939	.	+	.	ID=gene:MMSYN1_0007;Name=gyrA;locus_tag=MMSYN1_0007;gene=gyrA;product=DNA gyrase_ A subunit;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	9991	10968	.	-	.	ID=gene:MMSYN1_0008;Name=;locus_tag=MMSYN1_0008;product=ribose/Galactose ABC transporter_ permease component II;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	10968	13535	.	-	.	ID=gene:MMSYN1_0009;Name=;locus_tag=MMSYN1_0009;product=ABC transporter_ permease protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	13525	15141	.	-	.	ID=gene:MMSYN1_0010;Name=;locus_tag=MMSYN1_0010;product=ribose/Galactose ABC transporter_ ATP-binding component;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	15153	16799	.	-	.	ID=gene:MMSYN1_0011;Name=;locus_tag=MMSYN1_0011;product=ribose/galactose ABC transporter_ substrate-binding component;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	16986	18515	.	-	.	ID=gene:MMSYN1_0012;Name=metG;locus_tag=MMSYN1_0012;gene=metG;product=methionine--tRNA ligase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	18716	20302	.	+	.	ID=gene:MMSYN1_0013;Name=;locus_tag=MMSYN1_0013;product=mycoides cluster lipoprotein_ LppA/P72 family;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	20317	21831	.	+	.	ID=gene:MMSYN1_0014;Name=;locus_tag=MMSYN1_0014;product=mycoides cluster lipoprotein_ LppA/P72 family;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	21864	23393	.	+	.	ID=gene:MMSYN1_0015;Name=;locus_tag=MMSYN1_0015;product=mycoides cluster lipoprotein_ LppA/P72 family;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	23411	25009	.	+	.	ID=gene:MMSYN1_0016;Name=;locus_tag=MMSYN1_0016;product=mycoides cluster lipoprotein_ LppA/P72 family;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	25111	25215	.	+	.	ID=gene:MMSYN1_0916;Name=;locus_tag=MMSYN1_0916;product=RNAI;rna_type=ncRNA;gbkey=ncRNA
+CP002027.1	syn1_summary	gene	25426	26286	.	-	.	ID=gene:MMSYN1_0914;Name=bla;locus_tag=MMSYN1_0914;gene=bla;product=beta-lactamase TEM (precursor);rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	26357	27529	.	-	.	ID=gene:MMSYN1_0917;Name=;locus_tag=MMSYN1_0917;product=transposase_ Mutator family;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	27639	28301	.	-	.	ID=gene:MMSYN1_0918;Name=his3;locus_tag=MMSYN1_0918;gene=his3;product=imidazoleglycerol-phosphate dehydratase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	29270	31258	.	+	.	ID=gene:MMSYN1_0913;Name=tetM;locus_tag=MMSYN1_0913;gene=tetM;product=Tn916_ tetracycline resistance protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	31535	34618	.	+	.	ID=gene:MMSYN1_0915;Name=lacZ;locus_tag=MMSYN1_0915;gene=lacZ;product=beta-galactosidase_ chain D;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	35234	35776	.	+	.	ID=gene:MMSYN1_0921;Name=tnpA_1;locus_tag=MMSYN1_0921;gene=tnpA_1;product=IS1296 transposase protein A;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	35914	36645	.	+	.	ID=gene:MMSYN1_0922;Name=tnpB_1;locus_tag=MMSYN1_0922;gene=tnpB_1;product=IS1296 transposase protein B;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	36687	37673	.	-	.	ID=gene:MMSYN1_0019;Name=;locus_tag=MMSYN1_0019;product=mannitol-1-phosphate 5-dehydrogenase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	37674	38471	.	-	.	ID=gene:MMSYN1_0020;Name=;locus_tag=MMSYN1_0020;product=transcriptional regulator_ RpiR family;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	38505	38921	.	-	.	ID=gene:MMSYN1_0021;Name=;locus_tag=MMSYN1_0021;product=PTS system_ mannitol-permease iia component;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	38921	39679	.	-	.	ID=gene:MMSYN1_0022;Name=;locus_tag=MMSYN1_0022;product=sorbitol-6-phosphate 2-dehydrogenase (Glucitol-6-phosphate dehydrogenase) (Ketosephosphate reductase);rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	39679	41238	.	-	.	ID=gene:MMSYN1_0023;Name=;locus_tag=MMSYN1_0023;product=PTS system_ mannitol-permease iibc component;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	41509	42891	.	-	.	ID=gene:MMSYN1_0024;Name=;locus_tag=MMSYN1_0024;product=PSEUDOGENE - divergent AAA domain family;rna_type=pseudo;gbkey=pseudo
+CP002027.1	syn1_summary	gene	43284	43511	.	-	.	ID=gene:MMSYN1_0025;Name=rpsR;locus_tag=MMSYN1_0025;gene=rpsR;product=ribosomal protein S18;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	43531	43971	.	-	.	ID=gene:MMSYN1_0026;Name=;locus_tag=MMSYN1_0026;product=single-strand binding protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	43983	44396	.	-	.	ID=gene:MMSYN1_0027;Name=;locus_tag=MMSYN1_0027;product=30S ribosomal protein S6;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	44601	44810	.	-	.	ID=gene:MMSYN1_0028;Name=;locus_tag=MMSYN1_0028;product=cold-shock DNA-binding domain_ putative;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	44998	45597	.	+	.	ID=gene:MMSYN1_0029;Name=;locus_tag=MMSYN1_0029;product=fmn-dependent NADH-azoreductase (fmn-dependent nadh-azocompound oxidoreductase) (azo-dye reductase);rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	45634	46668	.	-	.	ID=gene:MMSYN1_0030;Name=;locus_tag=MMSYN1_0030;product=abc transporter_ ATP-binding protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	46716	47582	.	-	.	ID=gene:MMSYN1_0031;Name=hslO;locus_tag=MMSYN1_0031;gene=hslO;product=chaperonin HslO;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	47674	50835	.	-	.	ID=gene:MMSYN1_0032;Name=;locus_tag=MMSYN1_0032;product=GnsA/GnsB family;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	50958	54116	.	-	.	ID=gene:MMSYN1_0033;Name=;locus_tag=MMSYN1_0033;product=hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	54281	59650	.	+	.	ID=gene:MMSYN1_0034;Name=;locus_tag=MMSYN1_0034;product=efflux ABC transporter_ permease protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	59775	60968	.	+	.	ID=gene:MMSYN1_0035;Name=;locus_tag=MMSYN1_0035;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	61277	62263	.	+	.	ID=gene:MMSYN1_0036;Name=;locus_tag=MMSYN1_0036;product=D-lactate dehydrogenase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	62282	63406	.	+	.	ID=gene:MMSYN1_0037;Name=;locus_tag=MMSYN1_0037;product=malate permease;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	63762	65045	.	+	.	ID=gene:MMSYN1_0038;Name=;locus_tag=MMSYN1_0038;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	65087	67033	.	-	.	ID=gene:MMSYN1_0039;Name=;locus_tag=MMSYN1_0039;product=peptidase_ M41 family;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	67265	68110	.	+	.	ID=gene:MMSYN1_0041;Name=;locus_tag=MMSYN1_0041;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	68094	69299	.	-	.	ID=gene:MMSYN1_0040;Name=;locus_tag=MMSYN1_0040;product=tRNA(Ile)-lysidine synthase (tRNA(Ile)-lysidinesynthetase) (tRNA(Ile)-2-lysyl-cytidine synthase);rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	69302	70129	.	-	.	ID=gene:MMSYN1_0042;Name=;locus_tag=MMSYN1_0042;product=transcriptional regulator_ RpiR family protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	70181	70903	.	-	.	ID=gene:MMSYN1_0043;Name=;locus_tag=MMSYN1_0043;product=methyltransferase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	70903	71643	.	-	.	ID=gene:MMSYN1_0044;Name=;locus_tag=MMSYN1_0044;product=DNA polymerase III delta subunit;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	71621	72262	.	-	.	ID=gene:MMSYN1_0045;Name=tmk;locus_tag=MMSYN1_0045;gene=tmk;product=dTMP kinase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	72265	72855	.	-	.	ID=gene:MMSYN1_0046;Name=;locus_tag=MMSYN1_0046;product=DNA repair protein RecM;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	72857	74863	.	-	.	ID=gene:MMSYN1_0047;Name=dnaX;locus_tag=MMSYN1_0047;gene=dnaX;product=DNA polymerase III_ gamma/tau subunit;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	74945	75412	.	-	.	ID=gene:MMSYN1_0048;Name=;locus_tag=MMSYN1_0048;product=cytosine deaminase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	75393	75491	.	-	.	ID=gene:MMSYN1_0049;Name=srpB;locus_tag=MMSYN1_0049;gene=srpB;product=Bacterial signal recognition particle RNA;rna_type=ncRNA;gbkey=ncRNA
+CP002027.1	syn1_summary	gene	75529	76491	.	-	.	ID=gene:MMSYN1_0050;Name=guaC;locus_tag=MMSYN1_0050;gene=guaC;product=GMP reductase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	76906	77202	.	-	.	ID=gene:MMSYN1_0051;Name=;locus_tag=MMSYN1_0051;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	77327	77647	.	-	.	ID=gene:MMSYN1_0052;Name=;locus_tag=MMSYN1_0052;product=hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	77755	79851	.	-	.	ID=gene:MMSYN1_0053;Name=;locus_tag=MMSYN1_0053;product=PSEUDOGENE - putative liporotein;rna_type=pseudo;gbkey=pseudo
+CP002027.1	syn1_summary	gene	80000	80449	.	-	.	ID=gene:MMSYN1_0054;Name=;locus_tag=MMSYN1_0054;product=AhpC/TSA family protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	80688	81977	.	-	.	ID=gene:MMSYN1_0055;Name=mmyCVR;locus_tag=MMSYN1_0055;gene=mmyCVR;product=GATC--recognizing Type II restriction modification system (MmyCV) endonuclease subunit;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	81979	82818	.	-	.	ID=gene:MMSYN1_0056;Name=mmyC5VM;locus_tag=MMSYN1_0056;gene=mmyC5VM;product=GATC--recognizing Type II restriction modification system (MmyCV) adenine DNA methyltransferase subunit;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	83287	83577	.	+	.	ID=gene:MMSYN1_0057;Name=;locus_tag=MMSYN1_0057;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	83596	84177	.	+	.	ID=gene:MMSYN1_0058;Name=;locus_tag=MMSYN1_0058;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	84292	85410	.	+	.	ID=gene:MMSYN1_0059;Name=ald;locus_tag=MMSYN1_0059;gene=ald;product=alanine dehydrogenase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	85704	86528	.	+	.	ID=gene:MMSYN1_0060;Name=;locus_tag=MMSYN1_0060;product=putative membrane protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	86611	87879	.	+	.	ID=gene:MMSYN1_0061;Name=serS;locus_tag=MMSYN1_0061;gene=serS;product=serine--tRNA ligase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	87981	88295	.	+	.	ID=gene:MMSYN1_0062;Name=;locus_tag=MMSYN1_0062;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	88297	89271	.	+	.	ID=gene:MMSYN1_0063;Name=;locus_tag=MMSYN1_0063;product=tRNA-dihydrouridine synthase B;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	89274	90776	.	+	.	ID=gene:MMSYN1_0064;Name=lysS;locus_tag=MMSYN1_0064;gene=lysS;product=lysine--tRNA ligase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	90866	91174	.	-	.	ID=gene:MMSYN1_0065;Name=trxA;locus_tag=MMSYN1_0065;gene=trxA;product=thioredoxin;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	91185	92027	.	-	.	ID=gene:MMSYN1_0066;Name=;locus_tag=MMSYN1_0066;product=putative hydrolase of the HAD family;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	92148	92256	.	-	.	ID=gene:MMSYN1_0067;Name=rrf;locus_tag=MMSYN1_0067;gene=rrf;product=5S ribosomal RNA;rna_type=rRNA;gbkey=rRNA
+CP002027.1	syn1_summary	gene	92331	95225	.	-	.	ID=gene:MMSYN1_0068;Name=rrl;locus_tag=MMSYN1_0068;gene=rrl;product=23S ribosomal RNA;rna_type=rRNA;gbkey=rRNA
+CP002027.1	syn1_summary	gene	95457	96980	.	-	.	ID=gene:MMSYN1_0069;Name=rrs;locus_tag=MMSYN1_0069;gene=rrs;product=16S ribosomal RNA;rna_type=rRNA;gbkey=rRNA
+CP002027.1	syn1_summary	gene	97263	97346	.	-	.	ID=gene:MMSYN1_0070;Name=;locus_tag=MMSYN1_0070;product=tRNA-Leu;rna_type=tRNA;gbkey=tRNA
+CP002027.1	syn1_summary	gene	97349	97424	.	-	.	ID=gene:MMSYN1_0071;Name=;locus_tag=MMSYN1_0071;product=tRNA-Lys;rna_type=tRNA;gbkey=tRNA
+CP002027.1	syn1_summary	gene	97603	99669	.	+	.	ID=gene:MMSYN1_0072;Name=;locus_tag=MMSYN1_0072;product=putative membrane protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	99702	102434	.	-	.	ID=gene:MMSYN1_0073;Name=;locus_tag=MMSYN1_0073;product=phosphonate ABC transporter_ permease protein PhnE_ putative;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	102438	103190	.	-	.	ID=gene:MMSYN1_0074;Name=phnC;locus_tag=MMSYN1_0074;gene=phnC;product=phosphonate ABC transporter_ ATP-binding protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	103204	104574	.	-	.	ID=gene:MMSYN1_0075;Name=;locus_tag=MMSYN1_0075;product=phosphonate ABC transporter_ phosphonate-binding protein_ putative;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	104866	106230	.	-	.	ID=gene:MMSYN1_0076;Name=asnS;locus_tag=MMSYN1_0076;gene=asnS;product=asparagine--tRNA ligase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	106239	107078	.	-	.	ID=gene:MMSYN1_0077;Name=;locus_tag=MMSYN1_0077;product=putative hydrolase of the HAD family;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	107089	108219	.	-	.	ID=gene:MMSYN1_0078;Name=;locus_tag=MMSYN1_0078;product=putative hydrolase from alpha/beta family;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	108243	109199	.	-	.	ID=gene:MMSYN1_0079;Name=;locus_tag=MMSYN1_0079;product=probable O-sialoglycoprotein endopeptidase (Glycoprotease);rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	109294	109515	.	-	.	ID=gene:MMSYN1_0080;Name=;locus_tag=MMSYN1_0080;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	109715	111073	.	+	.	ID=gene:MMSYN1_0081;Name=trmE;locus_tag=MMSYN1_0081;gene=trmE;product=tRNA modification GTPase TrmE;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	111124	111369	.	-	.	ID=gene:MMSYN1_0082;Name=rpsT;locus_tag=MMSYN1_0082;gene=rpsT;product=ribosomal protein S20;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	111503	112138	.	-	.	ID=gene:MMSYN1_0083;Name=;locus_tag=MMSYN1_0083;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	112555	113967	.	-	.	ID=gene:MMSYN1_0084;Name=;locus_tag=MMSYN1_0084;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	114118	116367	.	-	.	ID=gene:MMSYN1_0085;Name=;locus_tag=MMSYN1_0085;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	116412	117539	.	-	.	ID=gene:MMSYN1_0086;Name=;locus_tag=MMSYN1_0086;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	118095	118508	.	-	.	ID=gene:MMSYN1_0087;Name=;locus_tag=MMSYN1_0087;product=cell wall anchoring protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	118767	120617	.	-	.	ID=gene:MMSYN1_0088;Name=;locus_tag=MMSYN1_0088;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	120876	122567	.	-	.	ID=gene:MMSYN1_0089;Name=;locus_tag=MMSYN1_0089;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	122730	123332	.	-	.	ID=gene:MMSYN1_0923;Name=;locus_tag=MMSYN1_0923;product=lipofamily protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	123560	126049	.	-	.	ID=gene:MMSYN1_0092;Name=;locus_tag=MMSYN1_0092;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	126220	126990	.	-	.	ID=gene:MMSYN1_0093;Name=;locus_tag=MMSYN1_0093;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	126974	127690	.	-	.	ID=gene:MMSYN1_0094;Name=;locus_tag=MMSYN1_0094;product=putative membrane protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	127805	130639	.	-	.	ID=gene:MMSYN1_0095;Name=secA;locus_tag=MMSYN1_0095;gene=secA;product=preprotein translocase_ SecA subunit;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	130730	131305	.	+	.	ID=gene:MMSYN1_0096;Name=;locus_tag=MMSYN1_0096;product=Xaa-Pro dipeptidase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	131380	132291	.	+	.	ID=gene:MMSYN1_0097;Name=;locus_tag=MMSYN1_0097;product=dna polymerase I_ 5'-3' exonuclease;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	132495	133511	.	+	.	ID=gene:MMSYN1_0098;Name=mmyCVIM1;locus_tag=MMSYN1_0098;gene=mmyCVIM1;product=CCATC--recognizing Type II restriction modification system (MmyCVI) adenine DNA methyltransferase subunit 1;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	133501	134418	.	+	.	ID=gene:MMSYN1_0099;Name=mmyCVIM2;locus_tag=MMSYN1_0099;gene=mmyCVIM2;product=CCATC--recognizing Type II restriction modification system (MmyCVI) adenine DNA methyltransferase subunit 2;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	134396	135979	.	+	.	ID=gene:MMSYN1_0100;Name=mmyCVIR;locus_tag=MMSYN1_0100;gene=mmyCVIR;product=CCATC--recognizing Type II restriction modification system (MmyCVI) endonuclease subunit;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	136419	137714	.	+	.	ID=gene:MMSYN1_0101;Name=;locus_tag=MMSYN1_0101;product=ATPase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	138374	138649	.	+	.	ID=gene:MMSYN1_0102;Name=;locus_tag=MMSYN1_0102;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	138651	139208	.	+	.	ID=gene:MMSYN1_0103;Name=coaE;locus_tag=MMSYN1_0103;gene=coaE;product=dephospho-CoA kinase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	139210	140016	.	-	.	ID=gene:MMSYN1_0104;Name=rrmJ;locus_tag=MMSYN1_0104;gene=rrmJ;product=ribosomal RNA large subunit methyltransferase J;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	140016	140231	.	-	.	ID=gene:MMSYN1_0105;Name=;locus_tag=MMSYN1_0105;product=conserved domain protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	140221	141630	.	-	.	ID=gene:MMSYN1_0106;Name=xseA;locus_tag=MMSYN1_0106;gene=xseA;product=exodeoxyribonuclease VII_ large subunit;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	141632	142030	.	-	.	ID=gene:MMSYN1_0107;Name=nusB;locus_tag=MMSYN1_0107;gene=nusB;product=transcription antitermination factor NusB;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	142042	143154	.	-	.	ID=gene:MMSYN1_0108;Name=;locus_tag=MMSYN1_0108;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	143180	144049	.	-	.	ID=gene:MMSYN1_0109;Name=;locus_tag=MMSYN1_0109;product=apurinic endonuclease Apn1;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	144042	144794	.	-	.	ID=gene:MMSYN1_0110;Name=;locus_tag=MMSYN1_0110;product=riboflavin kinase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	144869	144944	.	-	.	ID=gene:MMSYN1_0111;Name=;locus_tag=MMSYN1_0111;product=tRNA-Lys;rna_type=tRNA;gbkey=tRNA
+CP002027.1	syn1_summary	gene	145008	147287	.	-	.	ID=gene:MMSYN1_0112;Name=;locus_tag=MMSYN1_0112;product=peptidase_ S41 family;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	147625	148869	.	+	.	ID=gene:MMSYN1_0113;Name=;locus_tag=MMSYN1_0113;product=glycosyltransferase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	148943	149863	.	-	.	ID=gene:MMSYN1_0114;Name=;locus_tag=MMSYN1_0114;product=glycosyltransferase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	150311	151183	.	-	.	ID=gene:MMSYN1_0115;Name=;locus_tag=MMSYN1_0115;product=utp--glucose-1-phosphate uridylyltransferase (udp-glucosepyrophosphorylase) (udpgp) (alpha-d-glucosyl-1-phosphateuridylyltransferase) (uridine diphosphoglucose pyrophosphorylase)(general stress protein 33) (Gsp33);rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	151368	151808	.	-	.	ID=gene:MMSYN1_0116;Name=;locus_tag=MMSYN1_0116;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	151878	152639	.	+	.	ID=gene:MMSYN1_0117;Name=plsY;locus_tag=MMSYN1_0117;gene=plsY;product=acyl-phosphate glycerol 3-phosphate acyltransferase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	152703	154241	.	+	.	ID=gene:MMSYN1_0118;Name=;locus_tag=MMSYN1_0118;product=ABC transporter_ ATP-binding protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	154271	155068	.	-	.	ID=gene:MMSYN1_0119;Name=;locus_tag=MMSYN1_0119;product=hydrolase_ TatD family;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	155264	156490	.	+	.	ID=gene:MMSYN1_0120;Name=ilvA;locus_tag=MMSYN1_0120;gene=ilvA;product=threonine ammonia-lyase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	156705	158285	.	+	.	ID=gene:MMSYN1_0121;Name=;locus_tag=MMSYN1_0121;product=putative membrane protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	158297	159157	.	+	.	ID=gene:MMSYN1_0122;Name=;locus_tag=MMSYN1_0122;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	159440	160150	.	+	.	ID=gene:MMSYN1_0123;Name=vlcD;locus_tag=MMSYN1_0123;gene=vlcD;product=lipoprotein_ putative (VlcD);rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	160552	161883	.	+	.	ID=gene:MMSYN1_0124;Name=;locus_tag=MMSYN1_0124;product=hexosephosphate transport protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	162231	163934	.	+	.	ID=gene:MMSYN1_0125;Name=;locus_tag=MMSYN1_0125;product=PTS system_ N-acetylglucosamine-specific iibc component;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	164067	165518	.	+	.	ID=gene:MMSYN1_0126;Name=gltX;locus_tag=MMSYN1_0126;gene=gltX;product=glutamate--tRNA ligase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	165521	166735	.	+	.	ID=gene:MMSYN1_0127;Name=;locus_tag=MMSYN1_0127;product=HD domain protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	166761	167189	.	+	.	ID=gene:MMSYN1_0128;Name=;locus_tag=MMSYN1_0128;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	167281	168879	.	+	.	ID=gene:MMSYN1_0129;Name=pyrG;locus_tag=MMSYN1_0129;gene=pyrG;product=CTP synthase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	169010	169984	.	+	.	ID=gene:MMSYN1_0130;Name=;locus_tag=MMSYN1_0130;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	170143	171036	.	+	.	ID=gene:MMSYN1_0131;Name=fba;locus_tag=MMSYN1_0131;gene=fba;product=fructose-1_6-bisphosphate aldolase_ class II;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	171185	172246	.	+	.	ID=gene:MMSYN1_0132;Name=;locus_tag=MMSYN1_0132;product=AAA family ATPase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	172239	174512	.	+	.	ID=gene:MMSYN1_0133;Name=;locus_tag=MMSYN1_0133;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	174619	176106	.	-	.	ID=gene:MMSYN1_0134;Name=;locus_tag=MMSYN1_0134;product=putative membrane protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	176449	176562	.	-	.	ID=gene:MMSYN1_0135;Name=;locus_tag=MMSYN1_0135;product=hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	176702	177406	.	+	.	ID=gene:MMSYN1_0136;Name=;locus_tag=MMSYN1_0136;product=glycerophosphodiester phosphodiesterase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	177566	177844	.	+	.	ID=gene:MMSYN1_0137;Name=rpmE;locus_tag=MMSYN1_0137;gene=rpmE;product=ribosomal protein L31;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	177917	179815	.	+	.	ID=gene:MMSYN1_0138;Name=;locus_tag=MMSYN1_0138;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	179825	180775	.	+	.	ID=gene:MMSYN1_0139;Name=;locus_tag=MMSYN1_0139;product=DHH family protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	180777	181406	.	+	.	ID=gene:MMSYN1_0140;Name=tdk;locus_tag=MMSYN1_0140;gene=tdk;product=thymidine kinase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	181409	182503	.	+	.	ID=gene:MMSYN1_0141;Name=prfA;locus_tag=MMSYN1_0141;gene=prfA;product=peptide chain release factor 1;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	182496	183344	.	+	.	ID=gene:MMSYN1_0142;Name=prmC;locus_tag=MMSYN1_0142;gene=prmC;product=protein-(glutamine-N5) methyltransferase_ release factor-specific;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	183353	184825	.	+	.	ID=gene:MMSYN1_0143;Name=;locus_tag=MMSYN1_0143;product=putative membrane protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	184834	185334	.	+	.	ID=gene:MMSYN1_0144;Name=;locus_tag=MMSYN1_0144;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	185449	186363	.	+	.	ID=gene:MMSYN1_0145;Name=;locus_tag=MMSYN1_0145;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	186592	187299	.	+	.	ID=gene:MMSYN1_0146;Name=;locus_tag=MMSYN1_0146;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	187299	188828	.	+	.	ID=gene:MMSYN1_0147;Name=;locus_tag=MMSYN1_0147;product=cardiolipin synthetase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	188952	189371	.	+	.	ID=gene:MMSYN1_0148;Name=rpsL;locus_tag=MMSYN1_0148;gene=rpsL;product=ribosomal protein S12;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	189458	189925	.	+	.	ID=gene:MMSYN1_0149;Name=rpsG;locus_tag=MMSYN1_0149;gene=rpsG;product=ribosomal protein S7;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	189950	192019	.	+	.	ID=gene:MMSYN1_0150;Name=fusA;locus_tag=MMSYN1_0150;gene=fusA;product=translation elongation factor G;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	192151	193338	.	+	.	ID=gene:MMSYN1_0151;Name=tuf;locus_tag=MMSYN1_0151;gene=tuf;product=translation elongation factor Tu;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	193471	195336	.	+	.	ID=gene:MMSYN1_0152;Name=;locus_tag=MMSYN1_0152;product=PTS system glucose-specific eiic ba component;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	195320	197590	.	+	.	ID=gene:MMSYN1_0153;Name=;locus_tag=MMSYN1_0153;product=glycosyl hydrolase_ family 31;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	197743	199098	.	+	.	ID=gene:MMSYN1_0154;Name=lap;locus_tag=MMSYN1_0154;gene=lap;product=leucyl aminopeptidase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	200904	201506	.	+	.	ID=gene:MMSYN1_0155;Name=;locus_tag=MMSYN1_0155;product=PSEUDOGENE - conserved hypothetical protein;rna_type=pseudo;gbkey=pseudo
+CP002027.1	syn1_summary	gene	201664	202329	.	-	.	ID=gene:MMSYN1_0156;Name=trmB;locus_tag=MMSYN1_0156;gene=trmB;product=tRNA (guanine-N(7)-)-methyltransferase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	202331	203734	.	-	.	ID=gene:MMSYN1_0157;Name=mgtE;locus_tag=MMSYN1_0157;gene=mgtE;product=magnesium transporter;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	203879	204289	.	+	.	ID=gene:MMSYN1_0158;Name=ssrA;locus_tag=MMSYN1_0158;gene=ssrA;product=transfer-messenger RNA (ssrA);rna_type=tmRNA;gbkey=tmRNA
+CP002027.1	syn1_summary	gene	204414	206543	.	+	.	ID=gene:MMSYN1_0159;Name=;locus_tag=MMSYN1_0159;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	206563	207315	.	-	.	ID=gene:MMSYN1_0160;Name=abiGIA;locus_tag=MMSYN1_0160;gene=abiGIA;product=abortive infection protein AbiGII;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	207402	207998	.	-	.	ID=gene:MMSYN1_0161;Name=abiGIB;locus_tag=MMSYN1_0161;gene=abiGIB;product=abortive infection protein AbiGI;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	208209	209415	.	-	.	ID=gene:MMSYN1_0162;Name=;locus_tag=MMSYN1_0162;product=PSEUDOGENE - putative lipoprotein_ authentic frameshift;rna_type=pseudo;gbkey=pseudo
+CP002027.1	syn1_summary	gene	209529	212219	.	-	.	ID=gene:MMSYN1_0163;Name=alaS;locus_tag=MMSYN1_0163;gene=alaS;product=alanine--tRNA ligase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	212293	212787	.	-	.	ID=gene:MMSYN1_0164;Name=;locus_tag=MMSYN1_0164;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	213005	214249	.	+	.	ID=gene:MMSYN1_0165;Name=;locus_tag=MMSYN1_0165;product=oligopeptide ABC transporter_ permease component;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	214265	215275	.	+	.	ID=gene:MMSYN1_0166;Name=;locus_tag=MMSYN1_0166;product=oligopeptide ABC transporter_ permease component I;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	215289	216989	.	+	.	ID=gene:MMSYN1_0167;Name=;locus_tag=MMSYN1_0167;product=oligopeptide ABC transporter_ ATP-binding component;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	216991	218859	.	+	.	ID=gene:MMSYN1_0168;Name=;locus_tag=MMSYN1_0168;product=ABC transporter_ ATP-binding protein_ putative;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	218876	221977	.	+	.	ID=gene:MMSYN1_0169;Name=;locus_tag=MMSYN1_0169;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	222395	223690	.	-	.	ID=gene:MMSYN1_0170;Name=;locus_tag=MMSYN1_0170;product=ATPase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	223785	225089	.	-	.	ID=gene:MMSYN1_0171;Name=;locus_tag=MMSYN1_0171;product=ATPase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	225321	226202	.	+	.	ID=gene:MMSYN1_0172;Name=;locus_tag=MMSYN1_0172;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	226236	227933	.	-	.	ID=gene:MMSYN1_0173;Name=;locus_tag=MMSYN1_0173;product=mycoides cluster lipoprotein_ LppA/P72 family;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	228150	228296	.	+	.	ID=gene:MMSYN1_0174;Name=;locus_tag=MMSYN1_0174;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	228333	230015	.	-	.	ID=gene:MMSYN1_0175;Name=;locus_tag=MMSYN1_0175;product=mycoides cluster lipoprotein_ LppA/P72 family;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	230125	230754	.	-	.	ID=gene:MMSYN1_0176;Name=pgmB;locus_tag=MMSYN1_0176;gene=pgmB;product=beta-phosphoglucomutase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	230754	232553	.	-	.	ID=gene:MMSYN1_0177;Name=;locus_tag=MMSYN1_0177;product=neopullulanase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	232672	234468	.	-	.	ID=gene:MMSYN1_0178;Name=;locus_tag=MMSYN1_0178;product=neopullulanase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	234726	236525	.	+	.	ID=gene:MMSYN1_0179;Name=;locus_tag=MMSYN1_0179;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	236820	238610	.	+	.	ID=gene:MMSYN1_0180;Name=;locus_tag=MMSYN1_0180;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	238692	239183	.	+	.	ID=gene:MMSYN1_0181;Name=;locus_tag=MMSYN1_0181;product=hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	239198	241615	.	+	.	ID=gene:MMSYN1_0182;Name=;locus_tag=MMSYN1_0182;product=PSEUDOGENE - maltosaccharide ABC transporter_ permease;rna_type=pseudo;gbkey=pseudo
+CP002027.1	syn1_summary	gene	241630	244170	.	+	.	ID=gene:MMSYN1_0183;Name=;locus_tag=MMSYN1_0183;product=maltose ABC transporter permease protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	244172	245257	.	+	.	ID=gene:MMSYN1_0184;Name=;locus_tag=MMSYN1_0184;product=multiple sugar-binding transport ATP-binding protein MsmK;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	245365	247662	.	+	.	ID=gene:MMSYN1_0185;Name=;locus_tag=MMSYN1_0185;product=glycosyl hydrolase_ family 65;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	247664	249268	.	+	.	ID=gene:MMSYN1_0186;Name=;locus_tag=MMSYN1_0186;product=trehalose-6-phosphate hydrolase (Alpha_alpha-phosphotrehalase);rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	249291	250010	.	+	.	ID=gene:MMSYN1_0187;Name=;locus_tag=MMSYN1_0187;product=transcriptional regulator_ GntR family;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	250039	251832	.	-	.	ID=gene:MMSYN1_0188;Name=pepF;locus_tag=MMSYN1_0188;gene=pepF;product=oligoendopeptidase F;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	251832	252515	.	-	.	ID=gene:MMSYN1_0189;Name=;locus_tag=MMSYN1_0189;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	252531	253886	.	-	.	ID=gene:MMSYN1_0190;Name=;locus_tag=MMSYN1_0190;product=leucyl aminopeptidase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	253998	254180	.	-	.	ID=gene:MMSYN1_0191;Name=;locus_tag=MMSYN1_0191;product=ATPase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	254459	255079	.	+	.	ID=gene:MMSYN1_0192;Name=;locus_tag=MMSYN1_0192;product=chromate ion transporter;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	255079	255756	.	+	.	ID=gene:MMSYN1_0193;Name=;locus_tag=MMSYN1_0193;product=chromate ion transporter;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	255890	256849	.	+	.	ID=gene:MMSYN1_0194;Name=;locus_tag=MMSYN1_0194;product=PSEUDOGENE - conserved hypothetical protein;rna_type=pseudo;gbkey=pseudo
+CP002027.1	syn1_summary	gene	257213	260323	.	-	.	ID=gene:MMSYN1_0195;Name=;locus_tag=MMSYN1_0195;product=ABC transporter_ permease protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	260308	261300	.	-	.	ID=gene:MMSYN1_0196;Name=;locus_tag=MMSYN1_0196;product=spermidine/putrescine ABC transporter_ permease protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	261300	262355	.	-	.	ID=gene:MMSYN1_0197;Name=;locus_tag=MMSYN1_0197;product=spermidine/putrescine import ATP-binding protein PotA;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	262729	263088	.	-	.	ID=gene:MMSYN1_0198;Name=rplT;locus_tag=MMSYN1_0198;gene=rplT;product=ribosomal protein L20;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	263107	263298	.	-	.	ID=gene:MMSYN1_0199;Name=rpmI;locus_tag=MMSYN1_0199;gene=rpmI;product=ribosomal protein L35;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	263324	263869	.	-	.	ID=gene:MMSYN1_0200;Name=infC;locus_tag=MMSYN1_0200;gene=infC;product=translation initiation factor IF-3;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	264058	264660	.	-	.	ID=gene:MMSYN1_0201;Name=def;locus_tag=MMSYN1_0201;gene=def;product=peptide deformylase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	264734	265291	.	+	.	ID=gene:MMSYN1_0202;Name=;locus_tag=MMSYN1_0202;product=methyltransferase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	265294	266187	.	+	.	ID=gene:MMSYN1_0203;Name=gmk;locus_tag=MMSYN1_0203;gene=gmk;product=guanylate kinase (GMP kinase);rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	266177	267436	.	+	.	ID=gene:MMSYN1_0204;Name=sun;locus_tag=MMSYN1_0204;gene=sun;product=ribosomal RNA small subunit methyltransferase B;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	267440	269269	.	-	.	ID=gene:MMSYN1_0205;Name=typA;locus_tag=MMSYN1_0205;gene=typA;product=GTP-binding protein TypA/BipA;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	269514	270271	.	+	.	ID=gene:MMSYN1_0206;Name=;locus_tag=MMSYN1_0206;product=PSEUDOGENE - putative lipoprotein_ authentic frameshift;rna_type=pseudo;gbkey=pseudo
+CP002027.1	syn1_summary	gene	270334	271125	.	+	.	ID=gene:MMSYN1_0207;Name=;locus_tag=MMSYN1_0207;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	271254	272045	.	+	.	ID=gene:MMSYN1_0208;Name=;locus_tag=MMSYN1_0208;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	272099	273016	.	-	.	ID=gene:MMSYN1_0209;Name=murQ;locus_tag=MMSYN1_0209;gene=murQ;product=N-acetylmuramic acid 6-phosphate etherase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	273009	274706	.	-	.	ID=gene:MMSYN1_0210;Name=;locus_tag=MMSYN1_0210;product=PTS system N-acetylmuramic acid-specific eiibc component (eiibc-murnac);rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	274828	275661	.	-	.	ID=gene:MMSYN1_0211;Name=;locus_tag=MMSYN1_0211;product=transcription regulator GntR;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	275665	275868	.	-	.	ID=gene:MMSYN1_0212;Name=;locus_tag=MMSYN1_0212;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	276076	277431	.	+	.	ID=gene:MMSYN1_0213;Name=eno;locus_tag=MMSYN1_0213;gene=eno;product=phosphopyruvate hydratase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	277498	278319	.	+	.	ID=gene:MMSYN1_0214;Name=;locus_tag=MMSYN1_0214;product=PAP2 superfamily domain membrane protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	278321	278752	.	+	.	ID=gene:MMSYN1_0215;Name=;locus_tag=MMSYN1_0215;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	278758	279330	.	+	.	ID=gene:MMSYN1_0216;Name=hpt_1;locus_tag=MMSYN1_0216;gene=hpt_1;product=hypoxanthine phosphoribosyltransferase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	279390	280163	.	-	.	ID=gene:MMSYN1_0217;Name=;locus_tag=MMSYN1_0217;product=glycerol uptake facilitator protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	280204	281721	.	-	.	ID=gene:MMSYN1_0218;Name=glpK;locus_tag=MMSYN1_0218;gene=glpK;product=glycerol kinase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	281738	282901	.	-	.	ID=gene:MMSYN1_0219;Name=glpO;locus_tag=MMSYN1_0219;gene=glpO;product=glycerol oxydase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	283236	284216	.	+	.	ID=gene:MMSYN1_0220;Name=pfkA;locus_tag=MMSYN1_0220;gene=pfkA;product=6-phosphofructokinase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	284287	285723	.	+	.	ID=gene:MMSYN1_0221;Name=pyk;locus_tag=MMSYN1_0221;gene=pyk;product=pyruvate kinase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	285988	287907	.	+	.	ID=gene:MMSYN1_0222;Name=thrS;locus_tag=MMSYN1_0222;gene=thrS;product=threonine--tRNA ligase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	288390	289754	.	+	.	ID=gene:MMSYN1_0223;Name=;locus_tag=MMSYN1_0223;product=NADH oxidase (noxase);rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	289757	290761	.	+	.	ID=gene:MMSYN1_0224;Name=;locus_tag=MMSYN1_0224;product=probable lipoate-protein ligase A (Lipoate--proteinligase);rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	290805	291917	.	+	.	ID=gene:MMSYN1_0225;Name=pdhA;locus_tag=MMSYN1_0225;gene=pdhA;product=pyruvate dehydrogenase (acetyl-transferring) E1 component_ alpha subunit;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	291917	292906	.	+	.	ID=gene:MMSYN1_0226;Name=pdhB;locus_tag=MMSYN1_0226;gene=pdhB;product=pyruvate dehydrogenase E1 component subunit beta (Scomplex_ 36 kDa subunit);rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	292935	294260	.	+	.	ID=gene:MMSYN1_0227;Name=pdhC;locus_tag=MMSYN1_0227;gene=pdhC;product=dihydrolipoamide acetyltransferase component of pyruvate dehydrogenase complex;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	294279	296168	.	+	.	ID=gene:MMSYN1_0228;Name=lpdA;locus_tag=MMSYN1_0228;gene=lpdA;product=dihydrolipoyl dehydrogenase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	296190	297158	.	+	.	ID=gene:MMSYN1_0229;Name=pta;locus_tag=MMSYN1_0229;gene=pta;product=phosphate acetyltransferase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	297171	298352	.	+	.	ID=gene:MMSYN1_0230;Name=ackA;locus_tag=MMSYN1_0230;gene=ackA;product=acetate kinase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	298421	300376	.	+	.	ID=gene:MMSYN1_0231;Name=;locus_tag=MMSYN1_0231;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	300386	300808	.	+	.	ID=gene:MMSYN1_0232;Name=coaD;locus_tag=MMSYN1_0232;gene=coaD;product=pantetheine-phosphate adenylyltransferase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	300902	302623	.	+	.	ID=gene:MMSYN1_0233;Name=ptsP;locus_tag=MMSYN1_0233;gene=ptsP;product=phosphoenolpyruvate-protein phosphotransferase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	302705	303169	.	+	.	ID=gene:MMSYN1_0234;Name=;locus_tag=MMSYN1_0234;product=PTS system glucose-specific eiicba component (eiicba-glc) (eii-glc/eiii-glc);rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	303170	303460	.	+	.	ID=gene:MMSYN1_0235;Name=;locus_tag=MMSYN1_0235;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	303533	304159	.	+	.	ID=gene:MMSYN1_0236;Name=dhaL;locus_tag=MMSYN1_0236;gene=dhaL;product=dihydroxyacetone kinase_ L subunit;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	304167	304562	.	+	.	ID=gene:MMSYN1_0237;Name=;locus_tag=MMSYN1_0237;product=dihydroxyacetone kinase_ phosphotransfer subunit;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	304607	305233	.	-	.	ID=gene:MMSYN1_0238;Name=rpsD;locus_tag=MMSYN1_0238;gene=rpsD;product=ribosomal protein S4;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	305488	307275	.	+	.	ID=gene:MMSYN1_0239;Name=;locus_tag=MMSYN1_0239;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	307283	308470	.	+	.	ID=gene:MMSYN1_0240;Name=thiI;locus_tag=MMSYN1_0240;gene=thiI;product=thiamine biosynthesis/tRNA modification protein ThiI;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	308601	311333	.	+	.	ID=gene:MMSYN1_0241;Name=ctpA;locus_tag=MMSYN1_0241;gene=ctpA;product=PSEUDOGENE - carboxyl terminal peptidase activity of this gene was confirmed by Mary Brown and Ayman Alam at the University of Florida;rna_type=pseudo;gbkey=pseudo
+CP002027.1	syn1_summary	gene	311451	313136	.	+	.	ID=gene:MMSYN1_0242;Name=;locus_tag=MMSYN1_0242;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	313147	315438	.	+	.	ID=gene:MMSYN1_0243;Name=;locus_tag=MMSYN1_0243;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	315501	317768	.	+	.	ID=gene:MMSYN1_0244;Name=;locus_tag=MMSYN1_0244;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	318242	320383	.	+	.	ID=gene:MMSYN1_0245;Name=;locus_tag=MMSYN1_0245;product=putative membrane protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	320410	323316	.	-	.	ID=gene:MMSYN1_0246;Name=;locus_tag=MMSYN1_0246;product=E1-E2 ATPase subfamily_ putative;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	323325	323915	.	-	.	ID=gene:MMSYN1_0247;Name=ysxC;locus_tag=MMSYN1_0247;gene=ysxC;product=ribosome biogenesis GTP-binding protein YsxC;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	323909	324469	.	-	.	ID=gene:MMSYN1_0248;Name=;locus_tag=MMSYN1_0248;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	324471	325049	.	-	.	ID=gene:MMSYN1_0249;Name=;locus_tag=MMSYN1_0249;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	325052	325741	.	-	.	ID=gene:MMSYN1_0250;Name=;locus_tag=MMSYN1_0250;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	325823	326515	.	+	.	ID=gene:MMSYN1_0251;Name=;locus_tag=MMSYN1_0251;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	326516	327238	.	-	.	ID=gene:MMSYN1_0252;Name=;locus_tag=MMSYN1_0252;product=oxidoreductase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	327283	327756	.	-	.	ID=gene:MMSYN1_0253;Name=;locus_tag=MMSYN1_0253;product=transcription elongation factor GreA;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	327879	329633	.	-	.	ID=gene:MMSYN1_0254;Name=uvrC;locus_tag=MMSYN1_0254;gene=uvrC;product=excinuclease ABC subunit C;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	329643	330704	.	-	.	ID=gene:MMSYN1_0255;Name=;locus_tag=MMSYN1_0255;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	330770	332392	.	-	.	ID=gene:MMSYN1_0256;Name=;locus_tag=MMSYN1_0256;product=Amino acid permease superfamily protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	332498	334249	.	-	.	ID=gene:MMSYN1_0257;Name=;locus_tag=MMSYN1_0257;product=hydrolase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	334375	335094	.	-	.	ID=gene:MMSYN1_0258;Name=;locus_tag=MMSYN1_0258;product=oxidoreductase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	335106	335903	.	-	.	ID=gene:MMSYN1_0259;Name=;locus_tag=MMSYN1_0259;product=NAD(+)/nadh kinase_ putative;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	336014	338632	.	-	.	ID=gene:MMSYN1_0260;Name=valS;locus_tag=MMSYN1_0260;gene=valS;product=valine--tRNA ligase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	338719	339345	.	-	.	ID=gene:MMSYN1_0261;Name=thiN;locus_tag=MMSYN1_0261;gene=thiN;product=PSEUDOGENE - thiamine diphosphokinase;rna_type=pseudo;gbkey=pseudo
+CP002027.1	syn1_summary	gene	339335	340097	.	-	.	ID=gene:MMSYN1_0262;Name=rpe;locus_tag=MMSYN1_0262;gene=rpe;product=PSEUDOGENE -ribulose-phosphate 3-epimerase;rna_type=pseudo;gbkey=pseudo
+CP002027.1	syn1_summary	gene	340099	341001	.	-	.	ID=gene:MMSYN1_0263;Name=rsgA;locus_tag=MMSYN1_0263;gene=rsgA;product=ribosome small subunit-dependent GTPase A;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	341011	342126	.	-	.	ID=gene:MMSYN1_0264;Name=;locus_tag=MMSYN1_0264;product=serine/threonine protein kinase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	342126	342883	.	-	.	ID=gene:MMSYN1_0268;Name=;locus_tag=MMSYN1_0268;product=PSEUDOGENE - serine/threonine phosphatase_ degenerate;rna_type=pseudo;gbkey=pseudo
+CP002027.1	syn1_summary	gene	342912	344321	.	-	.	ID=gene:MMSYN1_0269;Name=;locus_tag=MMSYN1_0269;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	344441	344857	.	+	.	ID=gene:MMSYN1_0270;Name=;locus_tag=MMSYN1_0270;product=ATPase_ YjeE family;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	344859	345422	.	+	.	ID=gene:MMSYN1_0271;Name=;locus_tag=MMSYN1_0271;product=glycoprotease family protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	345458	350779	.	-	.	ID=gene:MMSYN1_0272;Name=;locus_tag=MMSYN1_0272;product=efflux ABC transporter_ permease protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	350992	354132	.	+	.	ID=gene:MMSYN1_0273;Name=;locus_tag=MMSYN1_0273;product=hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	354147	354761	.	+	.	ID=gene:MMSYN1_0274;Name=;locus_tag=MMSYN1_0274;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	354901	355422	.	+	.	ID=gene:MMSYN1_0275;Name=;locus_tag=MMSYN1_0275;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	355682	356302	.	+	.	ID=gene:MMSYN1_0276;Name=;locus_tag=MMSYN1_0276;product=PSEUDOGENE - putative liporotein;rna_type=pseudo;gbkey=pseudo
+CP002027.1	syn1_summary	gene	356463	356975	.	+	.	ID=gene:MMSYN1_0277;Name=;locus_tag=MMSYN1_0277;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	357015	359429	.	-	.	ID=gene:MMSYN1_0278;Name=;locus_tag=MMSYN1_0278;product=PTS system fructose-specific enzyme iiabc component;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	359688	359975	.	+	.	ID=gene:MMSYN1_0279;Name=;locus_tag=MMSYN1_0279;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	360219	360308	.	+	.	ID=gene:MMSYN1_0280;Name=;locus_tag=MMSYN1_0280;product=tRNA-Ser;rna_type=tRNA;gbkey=tRNA
+CP002027.1	syn1_summary	gene	360428	361108	.	+	.	ID=gene:MMSYN1_0281;Name=;locus_tag=MMSYN1_0281;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	361089	362513	.	+	.	ID=gene:MMSYN1_0282;Name=proS;locus_tag=MMSYN1_0282;gene=proS;product=proline--tRNA ligase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	362526	363143	.	+	.	ID=gene:MMSYN1_0283;Name=rnhA;locus_tag=MMSYN1_0283;gene=rnhA;product=ribonuclease HI;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	363145	364032	.	+	.	ID=gene:MMSYN1_0284;Name=;locus_tag=MMSYN1_0284;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	364056	365858	.	+	.	ID=gene:MMSYN1_0285;Name=lepA;locus_tag=MMSYN1_0285;gene=lepA;product=GTP-binding protein LepA;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	365884	366690	.	+	.	ID=gene:MMSYN1_0286;Name=;locus_tag=MMSYN1_0286;product=PSEUDOGENE - conserved hypothetical protein;rna_type=pseudo;gbkey=pseudo
+CP002027.1	syn1_summary	gene	366707	368431	.	-	.	ID=gene:MMSYN1_0287;Name=aspS;locus_tag=MMSYN1_0287;gene=aspS;product=aspartate--tRNA ligase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	368440	369684	.	-	.	ID=gene:MMSYN1_0288;Name=hisS;locus_tag=MMSYN1_0288;gene=hisS;product=histidine--tRNA ligase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	369869	370222	.	+	.	ID=gene:MMSYN1_0289;Name=rbfA;locus_tag=MMSYN1_0289;gene=rbfA;product=ribosome-binding factor A;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	370272	371150	.	+	.	ID=gene:MMSYN1_0290;Name=truB;locus_tag=MMSYN1_0290;gene=truB;product=tRNA pseudouridine synthase B;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	371137	371691	.	+	.	ID=gene:MMSYN1_0291;Name=;locus_tag=MMSYN1_0291;product=riboflavin kinase (Flavokinase);rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	371714	373759	.	-	.	ID=gene:MMSYN1_0292;Name=;locus_tag=MMSYN1_0292;product=peptidase_ S41 family;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	373784	375754	.	-	.	ID=gene:MMSYN1_0293;Name=;locus_tag=MMSYN1_0293;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	375967	376233	.	+	.	ID=gene:MMSYN1_0294;Name=rpsO;locus_tag=MMSYN1_0294;gene=rpsO;product=ribosomal protein S15;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	376293	376366	.	+	.	ID=gene:MMSYN1_0295;Name=;locus_tag=MMSYN1_0295;product=tRNA-Gly;rna_type=tRNA;gbkey=tRNA
+CP002027.1	syn1_summary	gene	376464	377108	.	+	.	ID=gene:MMSYN1_0296;Name=;locus_tag=MMSYN1_0296;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	377127	378989	.	-	.	ID=gene:MMSYN1_0297;Name=infB;locus_tag=MMSYN1_0297;gene=infB;product=translation initiation factor IF-2;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	379011	379310	.	-	.	ID=gene:MMSYN1_0298;Name=;locus_tag=MMSYN1_0298;product=ribosomal protein L7A family;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	379297	379578	.	-	.	ID=gene:MMSYN1_0299;Name=;locus_tag=MMSYN1_0299;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	379559	381313	.	-	.	ID=gene:MMSYN1_0300;Name=nusA;locus_tag=MMSYN1_0300;gene=nusA;product=transcription elongation factor NusA;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	381322	381816	.	-	.	ID=gene:MMSYN1_0301;Name=;locus_tag=MMSYN1_0301;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	381929	382579	.	-	.	ID=gene:MMSYN1_0302;Name=;locus_tag=MMSYN1_0302;product=nitroreductase family protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	382592	387040	.	-	.	ID=gene:MMSYN1_0303;Name=polC;locus_tag=MMSYN1_0303;gene=polC;product=DNA polymerase III_ alpha subunit_ Gram-positive type;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	387049	388077	.	-	.	ID=gene:MMSYN1_0304;Name=cdsA;locus_tag=MMSYN1_0304;gene=cdsA;product=phosphatidate cytidylyltransferase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	388276	389352	.	-	.	ID=gene:MMSYN1_0305;Name=;locus_tag=MMSYN1_0305;product=peptidase_ M24 family;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	389506	390282	.	-	.	ID=gene:MMSYN1_0306;Name=;locus_tag=MMSYN1_0306;product=hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	390558	390911	.	+	.	ID=gene:MMSYN1_0307;Name=;locus_tag=MMSYN1_0307;product=integrase core domain protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	391003	392013	.	+	.	ID=gene:MMSYN1_0308;Name=trpS;locus_tag=MMSYN1_0308;gene=trpS;product=tryptophan--tRNA ligase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	392042	392911	.	-	.	ID=gene:MMSYN1_0309;Name=;locus_tag=MMSYN1_0309;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	393024	393824	.	+	.	ID=gene:MMSYN1_0310;Name=;locus_tag=MMSYN1_0310;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	393879	394955	.	-	.	ID=gene:MMSYN1_0311;Name=;locus_tag=MMSYN1_0311;product=RmuC domain protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	395171	397891	.	+	.	ID=gene:MMSYN1_0312;Name=;locus_tag=MMSYN1_0312;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	398248	399522	.	+	.	ID=gene:MMSYN1_0313;Name=trmFO2;locus_tag=MMSYN1_0313;gene=trmFO2;product=methylenetetrahydrofolate--tRNA-(uracil-5-)- methyltransferase trmFO 2;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	399627	400361	.	+	.	ID=gene:MMSYN1_0314;Name=;locus_tag=MMSYN1_0314;product=putative membrane protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	400483	400635	.	+	.	ID=gene:MMSYN1_0315;Name=;locus_tag=MMSYN1_0315;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	400694	402664	.	+	.	ID=gene:MMSYN1_0316;Name=tkt;locus_tag=MMSYN1_0316;gene=tkt;product=transketolase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	402680	402925	.	+	.	ID=gene:MMSYN1_0317;Name=;locus_tag=MMSYN1_0317;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	402993	404537	.	+	.	ID=gene:MMSYN1_0318;Name=;locus_tag=MMSYN1_0318;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	404627	407524	.	+	.	ID=gene:MMSYN1_0319;Name=;locus_tag=MMSYN1_0319;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	407532	408329	.	+	.	ID=gene:MMSYN1_0320;Name=;locus_tag=MMSYN1_0320;product=triacylglycerol lipase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	408482	408910	.	+	.	ID=gene:MMSYN1_0321;Name=;locus_tag=MMSYN1_0321;product=PSEUDOGENE - putative liporotein;rna_type=pseudo;gbkey=pseudo
+CP002027.1	syn1_summary	gene	409235	410692	.	+	.	ID=gene:MMSYN1_0322;Name=;locus_tag=MMSYN1_0322;product=divergent AAA domain family;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	410710	412203	.	-	.	ID=gene:MMSYN1_0323;Name=;locus_tag=MMSYN1_0323;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	412372	412896	.	-	.	ID=gene:MMSYN1_0324;Name=;locus_tag=MMSYN1_0324;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	414261	415751	.	+	.	ID=gene:MMSYN1_0325;Name=;locus_tag=MMSYN1_0325;product=putative membrane protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	415769	416530	.	+	.	ID=gene:MMSYN1_0326;Name=;locus_tag=MMSYN1_0326;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	416540	417376	.	+	.	ID=gene:MMSYN1_0327;Name=scpA;locus_tag=MMSYN1_0327;gene=scpA;product=ScpA protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	417360	417989	.	+	.	ID=gene:MMSYN1_0328;Name=scpB;locus_tag=MMSYN1_0328;gene=scpB;product=segregation and condensation protein B;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	418057	418815	.	+	.	ID=gene:MMSYN1_0329;Name=;locus_tag=MMSYN1_0329;product=ribosomal large subunit pseudouridine synthase B (rRNA-uridine isomerase B) (rRNA pseudouridylate synthase B);rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	418825	419442	.	+	.	ID=gene:MMSYN1_0330;Name=;locus_tag=MMSYN1_0330;product=deoxyguanosine kinase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	419454	420167	.	+	.	ID=gene:MMSYN1_0331;Name=;locus_tag=MMSYN1_0331;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	420267	421094	.	+	.	ID=gene:MMSYN1_0332;Name=;locus_tag=MMSYN1_0332;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	421586	422005	.	+	.	ID=gene:MMSYN1_0333;Name=vlcA;locus_tag=MMSYN1_0333;gene=vlcA;product=lipoprotein_ putative (VlcA);rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	422445	422924	.	+	.	ID=gene:MMSYN1_0334;Name=vlcB;locus_tag=MMSYN1_0334;gene=vlcB;product=lipoprotein_ putative (VlcB);rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	423315	423773	.	+	.	ID=gene:MMSYN1_0335;Name=vlcC;locus_tag=MMSYN1_0335;gene=vlcC;product=lipoprotein_ putative (VlcC);rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	423939	424388	.	+	.	ID=gene:MMSYN1_0336;Name=;locus_tag=MMSYN1_0336;product=PTS system_ IIA component;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	424400	426208	.	+	.	ID=gene:MMSYN1_0337;Name=;locus_tag=MMSYN1_0337;product=PTS system ascorbate-specific enzyme IIC/IIB;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	426379	427098	.	+	.	ID=gene:MMSYN1_0338;Name=;locus_tag=MMSYN1_0338;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	427501	429321	.	+	.	ID=gene:MMSYN1_0339;Name=;locus_tag=MMSYN1_0339;product=Na+ ABC transporter_ ATP-binding component;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	429337	431127	.	+	.	ID=gene:MMSYN1_0340;Name=;locus_tag=MMSYN1_0340;product=ABC transporter_ permease protein_ putative;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	431156	432556	.	+	.	ID=gene:MMSYN1_0341;Name=;locus_tag=MMSYN1_0341;product=viral A-type inclusion protein_ putative;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	432682	434868	.	+	.	ID=gene:MMSYN1_0342;Name=;locus_tag=MMSYN1_0342;product=PSEUDOGENE - putative liporotein;rna_type=pseudo;gbkey=pseudo
+CP002027.1	syn1_summary	gene	435005	435700	.	+	.	ID=gene:MMSYN1_0343;Name=;locus_tag=MMSYN1_0343;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	435756	436316	.	-	.	ID=gene:MMSYN1_0344;Name=ppa;locus_tag=MMSYN1_0344;gene=ppa;product=inorganic diphosphatase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	436455	437345	.	+	.	ID=gene:MMSYN1_0345;Name=;locus_tag=MMSYN1_0345;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	437411	438106	.	+	.	ID=gene:MMSYN1_0346;Name=;locus_tag=MMSYN1_0346;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	438115	438777	.	+	.	ID=gene:MMSYN1_0347;Name=cmk;locus_tag=MMSYN1_0347;gene=cmk;product=cytidylate kinase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	438784	440091	.	+	.	ID=gene:MMSYN1_0348;Name=engA;locus_tag=MMSYN1_0348;gene=engA;product=ribosome-associated GTPase EngA;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	440093	441082	.	+	.	ID=gene:MMSYN1_0349;Name=gpsA;locus_tag=MMSYN1_0349;gene=gpsA;product=glycerol-3-phosphate dehydrogenase [NAD(P)+] (NAD(P)H-dependent glycerol-3-phosphate dehydrogenase);rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	441114	441386	.	+	.	ID=gene:MMSYN1_0350;Name=hup;locus_tag=MMSYN1_0350;gene=hup;product=DNA-binding protein HU;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	441441	441989	.	+	.	ID=gene:MMSYN1_0352;Name=;locus_tag=MMSYN1_0352;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	441952	442461	.	-	.	ID=gene:MMSYN1_0351;Name=recU;locus_tag=MMSYN1_0351;gene=recU;product=recombination protein U;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	442525	442902	.	+	.	ID=gene:MMSYN1_0353;Name=;locus_tag=MMSYN1_0353;product=PSEUDOGENE - DivIVA domain protein;rna_type=pseudo;gbkey=pseudo
+CP002027.1	syn1_summary	gene	443061	444476	.	+	.	ID=gene:MMSYN1_0354;Name=;locus_tag=MMSYN1_0354;product=PSEUDOGENE - putative lipoprotein_ degenerate;rna_type=pseudo;gbkey=pseudo
+CP002027.1	syn1_summary	gene	444649	445872	.	+	.	ID=gene:MMSYN1_0355;Name=;locus_tag=MMSYN1_0355;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	445958	446302	.	+	.	ID=gene:MMSYN1_0356;Name=rnpB;locus_tag=MMSYN1_0356;gene=rnpB;product=Bacterial RNase P class B;rna_type=ncRNA;gbkey=ncRNA
+CP002027.1	syn1_summary	gene	446339	446809	.	+	.	ID=gene:MMSYN1_0357;Name=;locus_tag=MMSYN1_0357;product=putative competence-damage inducible protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	446852	447889	.	+	.	ID=gene:MMSYN1_0358;Name=recA;locus_tag=MMSYN1_0358;gene=recA;product=protein RecA;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	448025	449554	.	+	.	ID=gene:MMSYN1_0359;Name=;locus_tag=MMSYN1_0359;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	449588	450931	.	+	.	ID=gene:MMSYN1_0360;Name=ffh;locus_tag=MMSYN1_0360;gene=ffh;product=signal recognition particle protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	450935	451402	.	+	.	ID=gene:MMSYN1_0361;Name=;locus_tag=MMSYN1_0361;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	451493	451771	.	+	.	ID=gene:MMSYN1_0362;Name=rpsP;locus_tag=MMSYN1_0362;gene=rpsP;product=ribosomal protein S16;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	451803	452297	.	+	.	ID=gene:MMSYN1_0363;Name=rimM;locus_tag=MMSYN1_0363;gene=rimM;product=16S rRNA processing protein RimM;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	452299	453021	.	+	.	ID=gene:MMSYN1_0364;Name=trmD;locus_tag=MMSYN1_0364;gene=trmD;product=tRNA (guanine-N1)-methyltransferase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	453023	453406	.	+	.	ID=gene:MMSYN1_0365;Name=rplS;locus_tag=MMSYN1_0365;gene=rplS;product=ribosomal protein L19;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	453505	454455	.	+	.	ID=gene:MMSYN1_0366;Name=ylqF;locus_tag=MMSYN1_0366;gene=ylqF;product=ribosome biogenesis GTP-binding protein YlqF;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	454449	455072	.	+	.	ID=gene:MMSYN1_0367;Name=rnhB;locus_tag=MMSYN1_0367;gene=rnhB;product=ribonuclease HII;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	455094	456890	.	-	.	ID=gene:MMSYN1_0368;Name=;locus_tag=MMSYN1_0368;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	456893	458131	.	-	.	ID=gene:MMSYN1_0369;Name=;locus_tag=MMSYN1_0369;product=YeeE/YedE family protein_ putative;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	458292	458597	.	+	.	ID=gene:MMSYN1_0370;Name=;locus_tag=MMSYN1_0370;product=single-strand binding family protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	458816	460687	.	+	.	ID=gene:MMSYN1_0371;Name=;locus_tag=MMSYN1_0371;product=ABC transporter_ permease and ATP-binding componen;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	460703	462556	.	+	.	ID=gene:MMSYN1_0372;Name=;locus_tag=MMSYN1_0372;product=ABC transporter_ permease and ATP-binding componen;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	462590	464197	.	+	.	ID=gene:MMSYN1_0373;Name=;locus_tag=MMSYN1_0373;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	464253	464329	.	+	.	ID=gene:MMSYN1_0374;Name=;locus_tag=MMSYN1_0374;product=tRNA-Arg;rna_type=tRNA;gbkey=tRNA
+CP002027.1	syn1_summary	gene	464383	465123	.	+	.	ID=gene:MMSYN1_0375;Name=;locus_tag=MMSYN1_0375;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	465125	465439	.	+	.	ID=gene:MMSYN1_0376;Name=;locus_tag=MMSYN1_0376;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	465510	466811	.	+	.	ID=gene:MMSYN1_0377;Name=cgtA;locus_tag=MMSYN1_0377;gene=cgtA;product=Obg family GTPase CgtA;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	466813	467550	.	+	.	ID=gene:MMSYN1_0378;Name=nadE;locus_tag=MMSYN1_0378;gene=nadE;product=NAD+ synthetase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	467567	467845	.	+	.	ID=gene:MMSYN1_0379;Name=;locus_tag=MMSYN1_0379;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	467863	468960	.	+	.	ID=gene:MMSYN1_0380;Name=;locus_tag=MMSYN1_0380;product=putative nicotinate-nucleotide adenylyltransferase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	468965	469624	.	+	.	ID=gene:MMSYN1_0381;Name=mtnN;locus_tag=MMSYN1_0381;gene=mtnN;product=MTA/SAH nucleosidase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	469634	470272	.	+	.	ID=gene:MMSYN1_0382;Name=;locus_tag=MMSYN1_0382;product=deoxynucleoside kinase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	470394	471113	.	+	.	ID=gene:MMSYN1_0383;Name=;locus_tag=MMSYN1_0383;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	471190	471927	.	+	.	ID=gene:MMSYN1_0384;Name=;locus_tag=MMSYN1_0384;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	471937	472617	.	+	.	ID=gene:MMSYN1_0385;Name=;locus_tag=MMSYN1_0385;product=PSEUDOGENE - putative liporotein;rna_type=pseudo;gbkey=pseudo
+CP002027.1	syn1_summary	gene	472656	473501	.	+	.	ID=gene:MMSYN1_0386;Name=;locus_tag=MMSYN1_0386;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	473609	474736	.	+	.	ID=gene:MMSYN1_0387;Name=trmU;locus_tag=MMSYN1_0387;gene=trmU;product=tRNA (5-methylaminomethyl-2-thiouridylate)-methyltransferase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	474783	475400	.	+	.	ID=gene:MMSYN1_0388;Name=;locus_tag=MMSYN1_0388;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	475476	477620	.	+	.	ID=gene:MMSYN1_0389;Name=;locus_tag=MMSYN1_0389;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	477610	478563	.	+	.	ID=gene:MMSYN1_0390;Name=fmt;locus_tag=MMSYN1_0390;gene=fmt;product=methionyl-tRNA formyltransferase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	478650	479204	.	+	.	ID=gene:MMSYN1_0391;Name=efp;locus_tag=MMSYN1_0391;gene=efp;product=translation elongation factor P;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	479222	479524	.	+	.	ID=gene:MMSYN1_0392;Name=;locus_tag=MMSYN1_0392;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	479541	480827	.	+	.	ID=gene:MMSYN1_0393;Name=tig;locus_tag=MMSYN1_0393;gene=tig;product=trigger factor;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	480950	483310	.	+	.	ID=gene:MMSYN1_0394;Name=lon;locus_tag=MMSYN1_0394;gene=lon;product=ATP-dependent protease La;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	483409	484644	.	+	.	ID=gene:MMSYN1_0395;Name=rarA;locus_tag=MMSYN1_0395;gene=rarA;product=recombination factor protein RarA;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	484673	486898	.	-	.	ID=gene:MMSYN1_0396;Name=;locus_tag=MMSYN1_0396;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	486949	489240	.	-	.	ID=gene:MMSYN1_0397;Name=;locus_tag=MMSYN1_0397;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	489280	491742	.	-	.	ID=gene:MMSYN1_0398;Name=;locus_tag=MMSYN1_0398;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	491892	497153	.	+	.	ID=gene:MMSYN1_0399;Name=;locus_tag=MMSYN1_0399;product=PSEUDOGENE - efflux ABC transporter_ permease protein;rna_type=pseudo;gbkey=pseudo
+CP002027.1	syn1_summary	gene	497201	497752	.	+	.	ID=gene:MMSYN1_0400;Name=;locus_tag=MMSYN1_0400;product=ThiJ/PfpI family protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	497850	499634	.	+	.	ID=gene:MMSYN1_0401;Name=;locus_tag=MMSYN1_0401;product=PSEUDOGENE - peptidase C39 family protein;rna_type=pseudo;gbkey=pseudo
+CP002027.1	syn1_summary	gene	499639	500133	.	+	.	ID=gene:MMSYN1_0402;Name=;locus_tag=MMSYN1_0402;product=putative metalloprotease;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	500137	501042	.	+	.	ID=gene:MMSYN1_0403;Name=era;locus_tag=MMSYN1_0403;gene=era;product=GTP-binding protein Era;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	501042	501791	.	+	.	ID=gene:MMSYN1_0404;Name=recO;locus_tag=MMSYN1_0404;gene=recO;product=DNA repair protein RecO;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	501855	503225	.	+	.	ID=gene:MMSYN1_0405;Name=glyS;locus_tag=MMSYN1_0405;gene=glyS;product=glycine--tRNA ligase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	503260	505098	.	+	.	ID=gene:MMSYN1_0406;Name=dnaG;locus_tag=MMSYN1_0406;gene=dnaG;product=DNA primase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	505101	506621	.	+	.	ID=gene:MMSYN1_0407;Name=rpoD;locus_tag=MMSYN1_0407;gene=rpoD;product=RNA polymerase sigma-A factor;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	506621	507298	.	+	.	ID=gene:MMSYN1_0408;Name=;locus_tag=MMSYN1_0408;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	507285	508061	.	+	.	ID=gene:MMSYN1_0409;Name=;locus_tag=MMSYN1_0409;product=NIF3 family protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	508070	509431	.	+	.	ID=gene:MMSYN1_0410;Name=;locus_tag=MMSYN1_0410;product=superfamily II DNA and RNA helicase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	509471	510985	.	+	.	ID=gene:MMSYN1_0411;Name=;locus_tag=MMSYN1_0411;product=putative membrane protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	511101	515255	.	+	.	ID=gene:MMSYN1_0412;Name=;locus_tag=MMSYN1_0412;product=putative membrane protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	515267	515779	.	+	.	ID=gene:MMSYN1_0413;Name=apt;locus_tag=MMSYN1_0413;gene=apt;product=adenine phosphoribosyltransferase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	515862	518126	.	+	.	ID=gene:MMSYN1_0414;Name=;locus_tag=MMSYN1_0414;product=RelA/SpoT family protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	518163	521129	.	-	.	ID=gene:MMSYN1_0415;Name=smc;locus_tag=MMSYN1_0415;gene=smc;product=chromosome segregation protein SMC;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	521435	521824	.	-	.	ID=gene:MMSYN1_0416;Name=;locus_tag=MMSYN1_0416;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	521827	522282	.	-	.	ID=gene:MMSYN1_0417;Name=;locus_tag=MMSYN1_0417;product=cdse;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	522415	523113	.	-	.	ID=gene:MMSYN1_0418;Name=rnc;locus_tag=MMSYN1_0418;gene=rnc;product=ribonuclease III;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	523103	524107	.	-	.	ID=gene:MMSYN1_0419;Name=plsX;locus_tag=MMSYN1_0419;gene=plsX;product=fatty acid/phospholipid synthesis protein PlsX;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	524140	525783	.	-	.	ID=gene:MMSYN1_0420;Name=;locus_tag=MMSYN1_0420;product=dihydroxyacetone kinase 2 domain protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	525808	526119	.	-	.	ID=gene:MMSYN1_0421;Name=;locus_tag=MMSYN1_0421;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	526288	526485	.	+	.	ID=gene:MMSYN1_0422;Name=rpmB;locus_tag=MMSYN1_0422;gene=rpmB;product=ribosomal protein L28;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	526549	526633	.	+	.	ID=gene:MMSYN1_0423;Name=;locus_tag=MMSYN1_0423;product=tRNA-Leu;rna_type=tRNA;gbkey=tRNA
+CP002027.1	syn1_summary	gene	526716	527159	.	+	.	ID=gene:MMSYN1_0424;Name=;locus_tag=MMSYN1_0424;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	527248	528378	.	+	.	ID=gene:MMSYN1_0425;Name=;locus_tag=MMSYN1_0425;product=phosphate ABC transporter_ substrate-binding component;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	528430	530520	.	+	.	ID=gene:MMSYN1_0426;Name=;locus_tag=MMSYN1_0426;product=phosphate ABC transport system_ permease component;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	530513	531322	.	+	.	ID=gene:MMSYN1_0427;Name=pstB;locus_tag=MMSYN1_0427;gene=pstB;product=phosphate ABC transporter_ ATP-binding protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	531331	532005	.	+	.	ID=gene:MMSYN1_0428;Name=phoU;locus_tag=MMSYN1_0428;gene=phoU;product=phosphate transport system regulatory protein PhoU;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	532072	533301	.	+	.	ID=gene:MMSYN1_0429;Name=;locus_tag=MMSYN1_0429;product=peptidase_ M41 family;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	533291	533626	.	+	.	ID=gene:MMSYN1_0430;Name=;locus_tag=MMSYN1_0430;product=putative transcriptional regulator;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	533614	534387	.	+	.	ID=gene:MMSYN1_0431;Name=;locus_tag=MMSYN1_0431;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	534597	535760	.	+	.	ID=gene:MMSYN1_0432;Name=metK;locus_tag=MMSYN1_0432;gene=metK;product=methionine adenosyltransferase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	535751	536434	.	+	.	ID=gene:MMSYN1_0433;Name=;locus_tag=MMSYN1_0433;product=copper homeostasis protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	536427	537743	.	+	.	ID=gene:MMSYN1_0434;Name=trmFO;locus_tag=MMSYN1_0434;gene=trmFO;product=tRNA:M(5)U-54 methyltransferase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	537769	538698	.	+	.	ID=gene:MMSYN1_0435;Name=;locus_tag=MMSYN1_0435;product=phosphomannose isomerase type I;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	538691	539344	.	+	.	ID=gene:MMSYN1_0436;Name=ung;locus_tag=MMSYN1_0436;gene=ung;product=uracil-DNA glycosylase (UDG);rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	539417	540397	.	+	.	ID=gene:MMSYN1_0437;Name=;locus_tag=MMSYN1_0437;product=cmp-binding-factor;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	540428	540826	.	-	.	ID=gene:MMSYN1_0438;Name=;locus_tag=MMSYN1_0438;product=protein hit;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	540829	542985	.	-	.	ID=gene:MMSYN1_0439;Name=;locus_tag=MMSYN1_0439;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	542985	545921	.	-	.	ID=gene:MMSYN1_0440;Name=;locus_tag=MMSYN1_0440;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	546124	547362	.	+	.	ID=gene:MMSYN1_0441;Name=;locus_tag=MMSYN1_0441;product=probable cysteine desulfurase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	547365	547802	.	+	.	ID=gene:MMSYN1_0442;Name=;locus_tag=MMSYN1_0442;product=nitrogen fixation protein nifu;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	547795	548358	.	+	.	ID=gene:MMSYN1_0443;Name=mthfs;locus_tag=MMSYN1_0443;gene=mthfs;product=5-formyltetrahydrofolate cyclo-ligase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	548379	550274	.	+	.	ID=gene:MMSYN1_0444;Name=;locus_tag=MMSYN1_0444;product=endopeptidase O;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	550494	551777	.	+	.	ID=gene:MMSYN1_0445;Name=pgi;locus_tag=MMSYN1_0445;gene=pgi;product=glucose-6-phosphate isomerase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	551789	552253	.	+	.	ID=gene:MMSYN1_0446;Name=;locus_tag=MMSYN1_0446;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	552275	552778	.	+	.	ID=gene:MMSYN1_0447;Name=;locus_tag=MMSYN1_0447;product=dUTPase superfamily;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	552795	553562	.	+	.	ID=gene:MMSYN1_0448;Name=;locus_tag=MMSYN1_0448;product=rRNA methylase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	553645	554187	.	+	.	ID=gene:MMSYN1_0449;Name=tnpA_2;locus_tag=MMSYN1_0449;gene=tnpA_2;product=IS1296 transposase protein A;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	554325	555056	.	+	.	ID=gene:MMSYN1_0450;Name=tnpB_2;locus_tag=MMSYN1_0450;gene=tnpB_2;product=IS1296 transposase protein B;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	555218	556633	.	+	.	ID=gene:MMSYN1_0451;Name=;locus_tag=MMSYN1_0451;product=NADP-dependent glyceraldehyde-3-phosphate dehydrogenase (non-phosphorylating glyceraldehyde 3-phosphate dehydrogenase)(glyceraldehyde-3-phosphate dehydrogenase [nadp+]) (triosephosphatedehydrogenase);rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	556820	558751	.	+	.	ID=gene:MMSYN1_0452;Name=parE;locus_tag=MMSYN1_0452;gene=parE;product=DNA topoisomerase IV_ B subunit;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	558753	561449	.	+	.	ID=gene:MMSYN1_0453;Name=parC;locus_tag=MMSYN1_0453;gene=parC;product=DNA topoisomerase IV_ A subunit;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	561557	563740	.	+	.	ID=gene:MMSYN1_0454;Name=;locus_tag=MMSYN1_0454;product=hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	563782	565299	.	-	.	ID=gene:MMSYN1_0455;Name=;locus_tag=MMSYN1_0455;product=PSEUDOGENE - putative membrane protein;rna_type=pseudo;gbkey=pseudo
+CP002027.1	syn1_summary	gene	565789	566184	.	+	.	ID=gene:MMSYN1_0924;Name=;locus_tag=MMSYN1_0924;product=conserved domain protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	566641	570003	.	+	.	ID=gene:MMSYN1_0460;Name=;locus_tag=MMSYN1_0460;product=bacterial surface protein 26-residue repeat protein (3 repeats);rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	570054	570785	.	-	.	ID=gene:MMSYN1_0461;Name=tnpB_3;locus_tag=MMSYN1_0461;gene=tnpB_3;product=IS1296 transposase protein B;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	570923	571465	.	-	.	ID=gene:MMSYN1_0462;Name=tnpA_3;locus_tag=MMSYN1_0462;gene=tnpA_3;product=IS1296 transposase protein A;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	571530	572708	.	-	.	ID=gene:MMSYN1_0463;Name=;locus_tag=MMSYN1_0463;product=NADH dependent flavin oxidoreductase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	572708	573745	.	-	.	ID=gene:MMSYN1_0464;Name=;locus_tag=MMSYN1_0464;product=lipoate--protein ligase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	573723	574580	.	-	.	ID=gene:MMSYN1_0465;Name=;locus_tag=MMSYN1_0465;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	574582	574926	.	-	.	ID=gene:MMSYN1_0466;Name=;locus_tag=MMSYN1_0466;product=glycine cleavage system H protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	575113	575907	.	+	.	ID=gene:MMSYN1_0467;Name=;locus_tag=MMSYN1_0467;product=triacylglycerol lipase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	575909	576703	.	+	.	ID=gene:MMSYN1_0468;Name=;locus_tag=MMSYN1_0468;product=lipase-esterase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	576697	577506	.	+	.	ID=gene:MMSYN1_0469;Name=;locus_tag=MMSYN1_0469;product=lipase-esterase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	577525	578658	.	-	.	ID=gene:MMSYN1_0470;Name=;locus_tag=MMSYN1_0470;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	578789	578920	.	-	.	ID=gene:MMSYN1_0471;Name=;locus_tag=MMSYN1_0471;product=hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	578922	580322	.	+	.	ID=gene:MMSYN1_0472;Name=;locus_tag=MMSYN1_0472;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	580469	581188	.	+	.	ID=gene:MMSYN1_0473;Name=;locus_tag=MMSYN1_0473;product=ABC transporter_ ATP binding protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	581188	581943	.	+	.	ID=gene:MMSYN1_0474;Name=;locus_tag=MMSYN1_0474;product=integral membrane protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	582072	583028	.	-	.	ID=gene:MMSYN1_0475;Name=ldh;locus_tag=MMSYN1_0475;gene=ldh;product=L-lactate dehydrogenase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	583080	584237	.	-	.	ID=gene:MMSYN1_0476;Name=nagA;locus_tag=MMSYN1_0476;gene=nagA;product=N-acetylglucosamine-6-phosphate deacetylase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	584406	585140	.	+	.	ID=gene:MMSYN1_0477;Name=;locus_tag=MMSYN1_0477;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	585152	585736	.	-	.	ID=gene:MMSYN1_0478;Name=;locus_tag=MMSYN1_0478;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	585741	587387	.	-	.	ID=gene:MMSYN1_0479;Name=;locus_tag=MMSYN1_0479;product=PSEUDOGENE - conserved hypothetical protein;rna_type=pseudo;gbkey=pseudo
+CP002027.1	syn1_summary	gene	587539	589539	.	+	.	ID=gene:MMSYN1_0480;Name=;locus_tag=MMSYN1_0480;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	589611	590048	.	-	.	ID=gene:MMSYN1_0481;Name=vlcE;locus_tag=MMSYN1_0481;gene=vlcE;product=lipoprotein_ putative (VlcE);rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	590364	590528	.	+	.	ID=gene:MMSYN1_0482;Name=rpsU;locus_tag=MMSYN1_0482;gene=rpsU;product=ribosomal protein S21;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	590637	591197	.	+	.	ID=gene:MMSYN1_0483;Name=ruvA;locus_tag=MMSYN1_0483;gene=ruvA;product=holliday junction DNA helicase RuvA;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	591214	592137	.	+	.	ID=gene:MMSYN1_0484;Name=ruvB;locus_tag=MMSYN1_0484;gene=ruvB;product=holliday junction ATP-dependent DNA helicase RuvB;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	592215	593573	.	+	.	ID=gene:MMSYN1_0485;Name=;locus_tag=MMSYN1_0485;product=dihydrolipoamide dehydrogenase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	593589	594398	.	-	.	ID=gene:MMSYN1_0486;Name=;locus_tag=MMSYN1_0486;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	594474	595394	.	+	.	ID=gene:MMSYN1_0487;Name=;locus_tag=MMSYN1_0487;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	595403	596506	.	+	.	ID=gene:MMSYN1_0488;Name=yqeH;locus_tag=MMSYN1_0488;gene=yqeH;product=ribosome biogenesis GTPase YqeH;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	596515	597738	.	-	.	ID=gene:MMSYN1_0489;Name=dinB;locus_tag=MMSYN1_0489;gene=dinB;product=DNA polymerase IV;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	597882	600620	.	+	.	ID=gene:MMSYN1_0490;Name=;locus_tag=MMSYN1_0490;product=papain family cysteine protease_ putative;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	600698	601321	.	-	.	ID=gene:MMSYN1_0491;Name=udk;locus_tag=MMSYN1_0491;gene=udk;product=uridine kinase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	601345	601785	.	-	.	ID=gene:MMSYN1_0492;Name=;locus_tag=MMSYN1_0492;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	601858	603207	.	-	.	ID=gene:MMSYN1_0493;Name=;locus_tag=MMSYN1_0493;product=Xaa-His dipeptidase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	603363	604043	.	-	.	ID=gene:MMSYN1_0494;Name=;locus_tag=MMSYN1_0494;product=putative N-acetylmannosamine-6-phosphate 2-epimerase (ManNAc-6-P epimerase);rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	604102	604977	.	-	.	ID=gene:MMSYN1_0495;Name=;locus_tag=MMSYN1_0495;product=ROK family protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	604970	605419	.	-	.	ID=gene:MMSYN1_0496;Name=;locus_tag=MMSYN1_0496;product=PSEUDOGENE - conserved hypothetical cytosolic protein;rna_type=pseudo;gbkey=pseudo
+CP002027.1	syn1_summary	gene	605428	607131	.	-	.	ID=gene:MMSYN1_0497;Name=;locus_tag=MMSYN1_0497;product=sodium:solute symporter family;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	607133	608020	.	-	.	ID=gene:MMSYN1_0498;Name=nanA;locus_tag=MMSYN1_0498;gene=nanA;product=N-acetylneuraminate lyase (N-acetylneuraminic acidaldolase) (N-acetylneuraminate pyruvate-lyase) (Sialic acid lyase)(Sialate lyase) (Sialic acid aldolase);rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	608185	608466	.	-	.	ID=gene:MMSYN1_0499;Name=rpmA;locus_tag=MMSYN1_0499;gene=rpmA;product=ribosomal protein L27;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	608468	608731	.	-	.	ID=gene:MMSYN1_0500;Name=;locus_tag=MMSYN1_0500;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	608785	609087	.	-	.	ID=gene:MMSYN1_0501;Name=rplU;locus_tag=MMSYN1_0501;gene=rplU;product=ribosomal protein L21;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	609233	609634	.	-	.	ID=gene:MMSYN1_0503;Name=;locus_tag=MMSYN1_0503;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	609657	610544	.	-	.	ID=gene:MMSYN1_0504;Name=;locus_tag=MMSYN1_0504;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	610920	611993	.	+	.	ID=gene:MMSYN1_0505;Name=;locus_tag=MMSYN1_0505;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	612086	612174	.	-	.	ID=gene:MMSYN1_0506;Name=;locus_tag=MMSYN1_0506;product=tRNA-Leu;rna_type=tRNA;gbkey=tRNA
+CP002027.1	syn1_summary	gene	612185	612260	.	-	.	ID=gene:MMSYN1_0507;Name=;locus_tag=MMSYN1_0507;product=tRNA-Lys;rna_type=tRNA;gbkey=tRNA
+CP002027.1	syn1_summary	gene	612265	612339	.	-	.	ID=gene:MMSYN1_0508;Name=;locus_tag=MMSYN1_0508;product=tRNA-Gln;rna_type=tRNA;gbkey=tRNA
+CP002027.1	syn1_summary	gene	612346	612429	.	-	.	ID=gene:MMSYN1_0509;Name=;locus_tag=MMSYN1_0509;product=tRNA-Tyr;rna_type=tRNA;gbkey=tRNA
+CP002027.1	syn1_summary	gene	612436	612511	.	-	.	ID=gene:MMSYN1_0510;Name=;locus_tag=MMSYN1_0510;product=tRNA-Thr;rna_type=tRNA;gbkey=tRNA
+CP002027.1	syn1_summary	gene	612638	613261	.	-	.	ID=gene:MMSYN1_0511;Name=;locus_tag=MMSYN1_0511;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	613310	614248	.	-	.	ID=gene:MMSYN1_0512;Name=plsC;locus_tag=MMSYN1_0512;gene=plsC;product=1-acyl-sn-glycerol-3-phosphate acyltransferase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	614414	614746	.	-	.	ID=gene:MMSYN1_0513;Name=acpS;locus_tag=MMSYN1_0513;gene=acpS;product=holo-[acyl-carrier-protein] synthase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	614766	615842	.	-	.	ID=gene:MMSYN1_0514;Name=;locus_tag=MMSYN1_0514;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	615883	616365	.	-	.	ID=gene:MMSYN1_0515;Name=;locus_tag=MMSYN1_0515;product=deoxycytidylate deaminase (dCMP deaminase);rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	616368	617669	.	-	.	ID=gene:MMSYN1_0516;Name=;locus_tag=MMSYN1_0516;product=putative membrane protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	617662	618594	.	-	.	ID=gene:MMSYN1_0517;Name=;locus_tag=MMSYN1_0517;product=ribosomal large subunit pseudouridine synthase D;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	618575	619183	.	-	.	ID=gene:MMSYN1_0518;Name=lspA;locus_tag=MMSYN1_0518;gene=lspA;product=signal peptidase II;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	619174	621921	.	-	.	ID=gene:MMSYN1_0519;Name=ileS;locus_tag=MMSYN1_0519;gene=ileS;product=isoleucine--tRNA ligase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	622614	623603	.	-	.	ID=gene:MMSYN1_0520;Name=;locus_tag=MMSYN1_0520;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	623616	624032	.	-	.	ID=gene:MMSYN1_0521;Name=;locus_tag=MMSYN1_0521;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	624044	625201	.	-	.	ID=gene:MMSYN1_0522;Name=ftsZ;locus_tag=MMSYN1_0522;gene=ftsZ;product=cell division protein FtsZ;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	625316	626476	.	-	.	ID=gene:MMSYN1_0523;Name=;locus_tag=MMSYN1_0523;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	626485	627411	.	-	.	ID=gene:MMSYN1_0524;Name=mraW;locus_tag=MMSYN1_0524;gene=mraW;product=S-adenosyl-methyltransferase MraW;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	627420	627821	.	-	.	ID=gene:MMSYN1_0525;Name=mraZ;locus_tag=MMSYN1_0525;gene=mraZ;product=protein MraZ;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	627928	628107	.	-	.	ID=gene:MMSYN1_0526;Name=rpmF;locus_tag=MMSYN1_0526;gene=rpmF;product=ribosomal protein L32;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	628122	628640	.	-	.	ID=gene:MMSYN1_0527;Name=;locus_tag=MMSYN1_0527;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	628640	631024	.	-	.	ID=gene:MMSYN1_0528;Name=pheT;locus_tag=MMSYN1_0528;gene=pheT;product=phenylalanyl-tRNA synthetase_ beta subunit;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	631033	632085	.	-	.	ID=gene:MMSYN1_0529;Name=pheS;locus_tag=MMSYN1_0529;gene=pheS;product=phenylalanyl-tRNA synthetase_ alpha subunit;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	632115	632723	.	-	.	ID=gene:MMSYN1_0530;Name=;locus_tag=MMSYN1_0530;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	632732	637180	.	-	.	ID=gene:MMSYN1_0531;Name=;locus_tag=MMSYN1_0531;product=efflux ABC transporter_ permease protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	637296	637404	.	-	.	ID=gene:MMSYN1_0532;Name=rrf;locus_tag=MMSYN1_0532;gene=rrf;product=5S ribosomal RNA;rna_type=rRNA;gbkey=rRNA
+CP002027.1	syn1_summary	gene	637479	640373	.	-	.	ID=gene:MMSYN1_0533;Name=rrl;locus_tag=MMSYN1_0533;gene=rrl;product=23S ribosomal RNA;rna_type=rRNA;gbkey=rRNA
+CP002027.1	syn1_summary	gene	640604	642127	.	-	.	ID=gene:MMSYN1_0534;Name=rrs;locus_tag=MMSYN1_0534;gene=rrs;product=16S ribosomal RNA;rna_type=rRNA;gbkey=rRNA
+CP002027.1	syn1_summary	gene	642339	644003	.	-	.	ID=gene:MMSYN1_0535;Name=argS;locus_tag=MMSYN1_0535;gene=argS;product=arginine--tRNA ligase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	644005	644553	.	-	.	ID=gene:MMSYN1_0536;Name=frr;locus_tag=MMSYN1_0536;gene=frr;product=ribosome recycling factor;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	644564	645277	.	-	.	ID=gene:MMSYN1_0537;Name=pyrH;locus_tag=MMSYN1_0537;gene=pyrH;product=UMP kinase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	645411	646016	.	-	.	ID=gene:MMSYN1_0538;Name=;locus_tag=MMSYN1_0538;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	646016	646903	.	-	.	ID=gene:MMSYN1_0539;Name=tsf;locus_tag=MMSYN1_0539;gene=tsf;product=translation elongation factor Ts;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	646915	647793	.	-	.	ID=gene:MMSYN1_0540;Name=rpsB;locus_tag=MMSYN1_0540;gene=rpsB;product=ribosomal protein S2;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	648001	649119	.	-	.	ID=gene:MMSYN1_0541;Name=dnaJ;locus_tag=MMSYN1_0541;gene=dnaJ;product=chaperone protein DnaJ;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	649183	650958	.	-	.	ID=gene:MMSYN1_0542;Name=dnaK;locus_tag=MMSYN1_0542;gene=dnaK;product=chaperone protein DnaK;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	651017	651619	.	-	.	ID=gene:MMSYN1_0543;Name=grpE;locus_tag=MMSYN1_0543;gene=grpE;product=co-chaperone GrpE;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	651621	652643	.	-	.	ID=gene:MMSYN1_0544;Name=hrcA;locus_tag=MMSYN1_0544;gene=hrcA;product=heat-inducible transcription repressor HrcA;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	652648	654789	.	-	.	ID=gene:MMSYN1_0545;Name=;locus_tag=MMSYN1_0545;product=ATPase family associated with various cellular activities (AAA) protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	654952	655188	.	-	.	ID=gene:MMSYN1_0546;Name=;locus_tag=MMSYN1_0546;product=PSEUDOGENE - putative hydrolase of the HAD family;rna_type=pseudo;gbkey=pseudo
+CP002027.1	syn1_summary	gene	655176	655817	.	-	.	ID=gene:MMSYN1_0547;Name=;locus_tag=MMSYN1_0547;product=PSEUDOGENE - putative hydrolase of the HAD family;rna_type=pseudo;gbkey=pseudo
+CP002027.1	syn1_summary	gene	655817	656362	.	-	.	ID=gene:MMSYN1_0548;Name=;locus_tag=MMSYN1_0548;product=rRNA Methylase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	656375	656977	.	-	.	ID=gene:MMSYN1_0549;Name=;locus_tag=MMSYN1_0549;product=Ham1 family;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	657179	659694	.	+	.	ID=gene:MMSYN1_0550;Name=;locus_tag=MMSYN1_0550;product=PSEUDOGENE - putative lipoprotein_ authentic frameshift;rna_type=pseudo;gbkey=pseudo
+CP002027.1	syn1_summary	gene	659874	662378	.	+	.	ID=gene:MMSYN1_0551;Name=;locus_tag=MMSYN1_0551;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	662695	663483	.	+	.	ID=gene:MMSYN1_0552;Name=;locus_tag=MMSYN1_0552;product=conserved hypothetical integrative conjugal element protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	663752	664993	.	+	.	ID=gene:MMSYN1_0553;Name=;locus_tag=MMSYN1_0553;product=conserved hypothetical integrative conjugal element protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	665166	665999	.	+	.	ID=gene:MMSYN1_0554;Name=;locus_tag=MMSYN1_0554;product=C-5 cytosine-specific DNA methylase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	666028	668043	.	+	.	ID=gene:MMSYN1_0555;Name=;locus_tag=MMSYN1_0555;product=membrane protein_ putative (TraD/TraG family);rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	668059	669015	.	+	.	ID=gene:MMSYN1_0556;Name=;locus_tag=MMSYN1_0556;product=conserved hypothetical integrative conjugal element protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	668999	669916	.	+	.	ID=gene:MMSYN1_0557;Name=;locus_tag=MMSYN1_0557;product=conserved hypothetical integrative conjugal element protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	669931	670347	.	+	.	ID=gene:MMSYN1_0558;Name=;locus_tag=MMSYN1_0558;product=single-strand binding family protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	670612	671802	.	+	.	ID=gene:MMSYN1_0559;Name=;locus_tag=MMSYN1_0559;product=conserved hypothetical integrative conjugal element protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	672040	673572	.	+	.	ID=gene:MMSYN1_0560;Name=;locus_tag=MMSYN1_0560;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	673574	673765	.	+	.	ID=gene:MMSYN1_0561;Name=;locus_tag=MMSYN1_0561;product=conserved hypothetical integrative conjugal element protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	673862	674092	.	+	.	ID=gene:MMSYN1_0562;Name=;locus_tag=MMSYN1_0562;product=conserved hypothetical integrative conjugal element protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	674120	676843	.	+	.	ID=gene:MMSYN1_0563;Name=;locus_tag=MMSYN1_0563;product=putative membrane protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	676950	677135	.	+	.	ID=gene:MMSYN1_0564;Name=;locus_tag=MMSYN1_0564;product=conserved hypothetical integrative conjugal element protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	677225	677602	.	+	.	ID=gene:MMSYN1_0565;Name=;locus_tag=MMSYN1_0565;product=conserved hypothetical integrative conjugal element protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	677609	679531	.	+	.	ID=gene:MMSYN1_0566;Name=;locus_tag=MMSYN1_0566;product=PSEUDOGENE - putative membrane protein;rna_type=pseudo;gbkey=pseudo
+CP002027.1	syn1_summary	gene	679556	682399	.	+	.	ID=gene:MMSYN1_0567;Name=;locus_tag=MMSYN1_0567;product=putative membrane protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	682412	683077	.	+	.	ID=gene:MMSYN1_0568;Name=;locus_tag=MMSYN1_0568;product=conserved hypothetical integrative conjugal element protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	683124	688091	.	+	.	ID=gene:MMSYN1_0569;Name=;locus_tag=MMSYN1_0569;product=putative membrane protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	688547	689293	.	+	.	ID=gene:MMSYN1_0570;Name=;locus_tag=MMSYN1_0570;product=conserved hypothetical integrative conjugal element protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	689489	689854	.	+	.	ID=gene:MMSYN1_0571;Name=;locus_tag=MMSYN1_0571;product=conserved hypothetical integrative conjugal element protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	690078	690992	.	+	.	ID=gene:MMSYN1_0572;Name=;locus_tag=MMSYN1_0572;product=CobQ/CobB/MinD/ParA nucleotide binding domain_ putative;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	691042	692274	.	+	.	ID=gene:MMSYN1_0573;Name=;locus_tag=MMSYN1_0573;product=conserved hypothetical integrative conjugal element protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	692861	695401	.	+	.	ID=gene:MMSYN1_0574;Name=;locus_tag=MMSYN1_0574;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	695457	696836	.	-	.	ID=gene:MMSYN1_0575;Name=atpD_1;locus_tag=MMSYN1_0575;gene=atpD_1;product=ATP synthase F1_ beta subunit;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	696836	698383	.	-	.	ID=gene:MMSYN1_0576;Name=atpA_1;locus_tag=MMSYN1_0576;gene=atpA_1;product=FOF1 ATP synthase_ alpha subunit;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	698388	700691	.	-	.	ID=gene:MMSYN1_0577;Name=;locus_tag=MMSYN1_0577;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	700693	701136	.	-	.	ID=gene:MMSYN1_0578;Name=;locus_tag=MMSYN1_0578;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	701136	702047	.	-	.	ID=gene:MMSYN1_0579;Name=;locus_tag=MMSYN1_0579;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	702049	702543	.	-	.	ID=gene:MMSYN1_0580;Name=;locus_tag=MMSYN1_0580;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	702518	703981	.	-	.	ID=gene:MMSYN1_0581;Name=;locus_tag=MMSYN1_0581;product=putative membrane protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	704013	706598	.	-	.	ID=gene:MMSYN1_0582;Name=;locus_tag=MMSYN1_0582;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	706621	708873	.	-	.	ID=gene:MMSYN1_0583;Name=;locus_tag=MMSYN1_0583;product=mycoplasma virulence signal region (Myco_arth_vir_N) family;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	709145	711715	.	-	.	ID=gene:MMSYN1_0584;Name=;locus_tag=MMSYN1_0584;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	711735	713984	.	-	.	ID=gene:MMSYN1_0585;Name=;locus_tag=MMSYN1_0585;product=mycoplasma virulence signal region (Myco_arth_vir_N) family;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	714177	716732	.	-	.	ID=gene:MMSYN1_0586;Name=;locus_tag=MMSYN1_0586;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	716747	718999	.	-	.	ID=gene:MMSYN1_0587;Name=;locus_tag=MMSYN1_0587;product=mycoplasma virulence signal region (Myco_arth_vir_N) family;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	719219	721780	.	-	.	ID=gene:MMSYN1_0588;Name=;locus_tag=MMSYN1_0588;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	721800	724058	.	-	.	ID=gene:MMSYN1_0589;Name=;locus_tag=MMSYN1_0589;product=mycoplasma virulence signal region (Myco_arth_vir_N) family;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	724657	725553	.	-	.	ID=gene:MMSYN1_0925;Name=;locus_tag=MMSYN1_0925;product=conserved domain protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	725660	726226	.	-	.	ID=gene:MMSYN1_0926;Name=;locus_tag=MMSYN1_0926;product=hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	726177	726560	.	+	.	ID=gene:MMSYN1_0927;Name=;locus_tag=MMSYN1_0927;product=hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	726553	727071	.	-	.	ID=gene:MMSYN1_0590;Name=;locus_tag=MMSYN1_0590;product=type III restriction enzyme_ res subunit;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	727058	728260	.	-	.	ID=gene:MMSYN1_0591;Name=mmyCImod;locus_tag=MMSYN1_0591;gene=mmyCImod;product=PSEUDOGENE - Type III restriction-modification system (MmyCI) adenine DNA methyltransferase subunit_ authentic frameshift;rna_type=pseudo;gbkey=pseudo
+CP002027.1	syn1_summary	gene	729115	730587	.	-	.	ID=gene:MMSYN1_0592;Name=;locus_tag=MMSYN1_0592;product=cdsf;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	730811	731089	.	-	.	ID=gene:MMSYN1_0593;Name=;locus_tag=MMSYN1_0593;product=hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	731220	732998	.	-	.	ID=gene:MMSYN1_0594;Name=;locus_tag=MMSYN1_0594;product=putative membrane protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	733270	734646	.	+	.	ID=gene:MMSYN1_0595;Name=;locus_tag=MMSYN1_0595;product=PSEUDOGENE - conserved hypothetical protein;rna_type=pseudo;gbkey=pseudo
+CP002027.1	syn1_summary	gene	735282	737948	.	+	.	ID=gene:MMSYN1_0596;Name=;locus_tag=MMSYN1_0596;product=hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	738368	738793	.	+	.	ID=gene:MMSYN1_0597;Name=;locus_tag=MMSYN1_0597;product=PSEUDOGENE - Fic family protein;rna_type=pseudo;gbkey=pseudo
+CP002027.1	syn1_summary	gene	739136	740662	.	+	.	ID=gene:MMSYN1_0598;Name=;locus_tag=MMSYN1_0598;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	740801	740941	.	-	.	ID=gene:MMSYN1_0599;Name=;locus_tag=MMSYN1_0599;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	741755	743587	.	+	.	ID=gene:MMSYN1_0600;Name=;locus_tag=MMSYN1_0600;product=RNA-metabolising metallo-beta-lactamase family;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	743662	744606	.	+	.	ID=gene:MMSYN1_0601;Name=;locus_tag=MMSYN1_0601;product=putative membrane protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	744738	746000	.	+	.	ID=gene:MMSYN1_0602;Name=;locus_tag=MMSYN1_0602;product=PSEUDOGENE - conserved hypothetical protein;rna_type=pseudo;gbkey=pseudo
+CP002027.1	syn1_summary	gene	746503	747171	.	+	.	ID=gene:MMSYN1_0604;Name=;locus_tag=MMSYN1_0604;product=LemA family;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	746854	746941	.	+	.	ID=gene:MMSYN1_0603;Name=;locus_tag=MMSYN1_0603;product=Small nucleolar RNA snR69;rna_type=ncRNA;gbkey=ncRNA
+CP002027.1	syn1_summary	gene	747354	747662	.	+	.	ID=gene:MMSYN1_0605;Name=;locus_tag=MMSYN1_0605;product=hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	747929	749143	.	-	.	ID=gene:MMSYN1_0606;Name=pgk;locus_tag=MMSYN1_0606;gene=pgk;product=phosphoglycerate kinase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	749255	750271	.	-	.	ID=gene:MMSYN1_0607;Name=gap;locus_tag=MMSYN1_0607;gene=gap;product=glyceraldehyde-3-phosphate dehydrogenase_ type I;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	750372	751310	.	-	.	ID=gene:MMSYN1_0608;Name=;locus_tag=MMSYN1_0608;product=primosomal protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	751320	752504	.	-	.	ID=gene:MMSYN1_0609;Name=;locus_tag=MMSYN1_0609;product=chromosome replication initiation/membrane attachment protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	752661	753485	.	-	.	ID=gene:MMSYN1_0610;Name=mutM;locus_tag=MMSYN1_0610;gene=mutM;product=DNA-formamidopyrimidine glycosylase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	753496	756231	.	-	.	ID=gene:MMSYN1_0611;Name=polA;locus_tag=MMSYN1_0611;gene=polA;product=DNA polymerase I superfamily;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	756240	759203	.	-	.	ID=gene:MMSYN1_0612;Name=;locus_tag=MMSYN1_0612;product=DNA polymerase III_ alpha subunit subfamily_ putative;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	759398	760642	.	-	.	ID=gene:MMSYN1_0613;Name=tyrS;locus_tag=MMSYN1_0613;gene=tyrS;product=tyrosine--tRNA ligase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	760651	761712	.	-	.	ID=gene:MMSYN1_0614;Name=;locus_tag=MMSYN1_0614;product=nicotinate phosphoribosyltransferase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	761690	762298	.	-	.	ID=gene:MMSYN1_0615;Name=;locus_tag=MMSYN1_0615;product=phenylalanine-tRNA ligase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	762373	763212	.	+	.	ID=gene:MMSYN1_0616;Name=;locus_tag=MMSYN1_0616;product=EDD domain protein_ DegV family_ putative;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	763223	764074	.	+	.	ID=gene:MMSYN1_0617;Name=;locus_tag=MMSYN1_0617;product=DegV family protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	764110	764184	.	-	.	ID=gene:MMSYN1_0618;Name=;locus_tag=MMSYN1_0618;product=tRNA-Trp;rna_type=tRNA;gbkey=tRNA
+CP002027.1	syn1_summary	gene	764222	764297	.	-	.	ID=gene:MMSYN1_0619;Name=;locus_tag=MMSYN1_0619;product=tRNA-Sec;rna_type=tRNA;gbkey=tRNA
+CP002027.1	syn1_summary	gene	764373	764837	.	-	.	ID=gene:MMSYN1_0620;Name=;locus_tag=MMSYN1_0620;product=ferric uptake regulator;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	764838	765059	.	-	.	ID=gene:MMSYN1_0621;Name=;locus_tag=MMSYN1_0621;product=conserved domain protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	765083	765445	.	-	.	ID=gene:MMSYN1_0622;Name=;locus_tag=MMSYN1_0622;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	765432	766502	.	-	.	ID=gene:MMSYN1_0623;Name=;locus_tag=MMSYN1_0623;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	766603	766678	.	-	.	ID=gene:MMSYN1_0624;Name=;locus_tag=MMSYN1_0624;product=tRNA-His;rna_type=tRNA;gbkey=tRNA
+CP002027.1	syn1_summary	gene	766799	767731	.	-	.	ID=gene:MMSYN1_0625;Name=arcC_1;locus_tag=MMSYN1_0625;gene=arcC_1;product=carbamate kinase 1;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	767848	768942	.	-	.	ID=gene:MMSYN1_0626;Name=aguA;locus_tag=MMSYN1_0626;gene=aguA;product=agmatine deiminase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	768949	770367	.	-	.	ID=gene:MMSYN1_0627;Name=;locus_tag=MMSYN1_0627;product=PSEUDOGENE - amino acid permease family protein;rna_type=pseudo;gbkey=pseudo
+CP002027.1	syn1_summary	gene	770394	771491	.	-	.	ID=gene:MMSYN1_0628;Name=argF;locus_tag=MMSYN1_0628;gene=argF;product=ornithine carbamoyltransferase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	771786	772163	.	-	.	ID=gene:MMSYN1_0629;Name=;locus_tag=MMSYN1_0629;product=hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	772384	773271	.	+	.	ID=gene:MMSYN1_0630;Name=;locus_tag=MMSYN1_0630;product=ABC transporter_ ATP-binding component;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	773273	774037	.	+	.	ID=gene:MMSYN1_0631;Name=;locus_tag=MMSYN1_0631;product=PSEUDOGENE - ABC transporter_ permease protein_ putative;rna_type=pseudo;gbkey=pseudo
+CP002027.1	syn1_summary	gene	774071	774547	.	-	.	ID=gene:MMSYN1_0632;Name=;locus_tag=MMSYN1_0632;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	774638	776197	.	-	.	ID=gene:MMSYN1_0633;Name=;locus_tag=MMSYN1_0633;product=putative membrane protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	776264	778678	.	-	.	ID=gene:MMSYN1_0634;Name=leuS;locus_tag=MMSYN1_0634;gene=leuS;product=leucine--tRNA ligase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	778816	778892	.	-	.	ID=gene:MMSYN1_0635;Name=;locus_tag=MMSYN1_0635;product=tRNA-Ile;rna_type=tRNA;gbkey=tRNA
+CP002027.1	syn1_summary	gene	778965	781754	.	-	.	ID=gene:MMSYN1_0636;Name=;locus_tag=MMSYN1_0636;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	781913	782311	.	-	.	ID=gene:MMSYN1_0637;Name=rpsI;locus_tag=MMSYN1_0637;gene=rpsI;product=ribosomal protein S9;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	782311	782766	.	-	.	ID=gene:MMSYN1_0638;Name=rplM;locus_tag=MMSYN1_0638;gene=rplM;product=ribosomal protein L13;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	782896	787041	.	-	.	ID=gene:MMSYN1_0639;Name=;locus_tag=MMSYN1_0639;product=efflux ABC transporter_ permease protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	787136	787891	.	-	.	ID=gene:MMSYN1_0640;Name=;locus_tag=MMSYN1_0640;product=tRNA pseudouridine synthase A (tRNA-uridine isomeraseI) (tRNA pseudouridylate synthase I);rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	787894	788904	.	-	.	ID=gene:MMSYN1_0641;Name=;locus_tag=MMSYN1_0641;product=ABC transporter_ permease component;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	788918	789829	.	-	.	ID=gene:MMSYN1_0642;Name=;locus_tag=MMSYN1_0642;product=cobalt import ATP-binding protein CbiO 1;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	789817	791043	.	-	.	ID=gene:MMSYN1_0643;Name=;locus_tag=MMSYN1_0643;product=cobalt import ATP-binding protein CbiO 2;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	791151	791510	.	-	.	ID=gene:MMSYN1_0644;Name=rplQ;locus_tag=MMSYN1_0644;gene=rplQ;product=ribosomal protein L17;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	791530	792483	.	-	.	ID=gene:MMSYN1_0645;Name=rpoA;locus_tag=MMSYN1_0645;gene=rpoA;product=DNA-directed RNA polymerase_ alpha subunit;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	792487	792876	.	-	.	ID=gene:MMSYN1_0646;Name=rpsK;locus_tag=MMSYN1_0646;gene=rpsK;product=30S ribosomal protein S11;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	792902	793267	.	-	.	ID=gene:MMSYN1_0647;Name=rpsM;locus_tag=MMSYN1_0647;gene=rpsM;product=30S ribosomal protein S13;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	793304	793417	.	-	.	ID=gene:MMSYN1_0648;Name=rpmJ;locus_tag=MMSYN1_0648;gene=rpmJ;product=ribosomal protein L36;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	793486	793710	.	-	.	ID=gene:MMSYN1_0649;Name=infA;locus_tag=MMSYN1_0649;gene=infA;product=translation initiation factor IF-1;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	793722	794477	.	-	.	ID=gene:MMSYN1_0650;Name=map;locus_tag=MMSYN1_0650;gene=map;product=methionine aminopeptidase_ type I;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	794477	795118	.	-	.	ID=gene:MMSYN1_0651;Name=adk;locus_tag=MMSYN1_0651;gene=adk;product=adenylate kinase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	795246	796694	.	-	.	ID=gene:MMSYN1_0652;Name=secY;locus_tag=MMSYN1_0652;gene=secY;product=preprotein translocase_ SecY subunit;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	796694	797131	.	-	.	ID=gene:MMSYN1_0653;Name=rplO;locus_tag=MMSYN1_0653;gene=rplO;product=ribosomal protein L15;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	797150	797914	.	-	.	ID=gene:MMSYN1_0654;Name=rpsE;locus_tag=MMSYN1_0654;gene=rpsE;product=30S ribosomal protein S5;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	797933	798283	.	-	.	ID=gene:MMSYN1_0655;Name=rplR;locus_tag=MMSYN1_0655;gene=rplR;product=ribosomal protein L18;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	798309	798851	.	-	.	ID=gene:MMSYN1_0656;Name=rplF;locus_tag=MMSYN1_0656;gene=rplF;product=ribosomal protein L6;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	798865	799254	.	-	.	ID=gene:MMSYN1_0657;Name=rpsH;locus_tag=MMSYN1_0657;gene=rpsH;product=ribosomal protein S8;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	799274	799459	.	-	.	ID=gene:MMSYN1_0658;Name=rpsN;locus_tag=MMSYN1_0658;gene=rpsN;product=ribosomal protein S14p/S29e;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	799478	800020	.	-	.	ID=gene:MMSYN1_0659;Name=rplE;locus_tag=MMSYN1_0659;gene=rplE;product=50S ribosomal protein L5 (BL6);rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	800039	800365	.	-	.	ID=gene:MMSYN1_0660;Name=rplX;locus_tag=MMSYN1_0660;gene=rplX;product=ribosomal protein L24;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	800379	800747	.	-	.	ID=gene:MMSYN1_0661;Name=rplN;locus_tag=MMSYN1_0661;gene=rplN;product=ribosomal protein L14;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	800763	801020	.	-	.	ID=gene:MMSYN1_0662;Name=rpsQ;locus_tag=MMSYN1_0662;gene=rpsQ;product=30S ribosomal protein S17;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	801020	801436	.	-	.	ID=gene:MMSYN1_0663;Name=rpmC;locus_tag=MMSYN1_0663;gene=rpmC;product=50S ribosomal protein L29;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	801436	801849	.	-	.	ID=gene:MMSYN1_0664;Name=rplP;locus_tag=MMSYN1_0664;gene=rplP;product=ribosomal protein L16;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	801852	802553	.	-	.	ID=gene:MMSYN1_0665;Name=rpsC;locus_tag=MMSYN1_0665;gene=rpsC;product=ribosomal protein S3;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	802571	802906	.	-	.	ID=gene:MMSYN1_0666;Name=rplV;locus_tag=MMSYN1_0666;gene=rplV;product=ribosomal protein L22;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	802930	803196	.	-	.	ID=gene:MMSYN1_0667;Name=rpsS;locus_tag=MMSYN1_0667;gene=rpsS;product=ribosomal protein S19;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	803218	804066	.	-	.	ID=gene:MMSYN1_0668;Name=rplB;locus_tag=MMSYN1_0668;gene=rplB;product=ribosomal protein L2;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	804121	804405	.	-	.	ID=gene:MMSYN1_0669;Name=rplW;locus_tag=MMSYN1_0669;gene=rplW;product=ribosomal protein L23;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	804405	805031	.	-	.	ID=gene:MMSYN1_0670;Name=rplD;locus_tag=MMSYN1_0670;gene=rplD;product=ribosomal protein L4/L1 family;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	805044	805715	.	-	.	ID=gene:MMSYN1_0671;Name=rplC;locus_tag=MMSYN1_0671;gene=rplC;product=50S ribosomal protein L3;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	805791	806099	.	-	.	ID=gene:MMSYN1_0672;Name=rpsJ;locus_tag=MMSYN1_0672;gene=rpsJ;product=ribosomal protein S10;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	806351	807349	.	-	.	ID=gene:MMSYN1_0673;Name=dhaK;locus_tag=MMSYN1_0673;gene=dhaK;product=dihydroxyacetone kinase_ DhaK subunit;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	807457	809085	.	-	.	ID=gene:MMSYN1_0674;Name=;locus_tag=MMSYN1_0674;product=trehalose-6-phosphate hydrolase (Alpha_alpha-phosphotrehalase);rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	809093	810640	.	-	.	ID=gene:MMSYN1_0675;Name=;locus_tag=MMSYN1_0675;product=PTS system_ trehalose-specific iibc component;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	810706	811692	.	-	.	ID=gene:MMSYN1_0676;Name=;locus_tag=MMSYN1_0676;product=transcription regulator_ LacI family;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	812217	813128	.	+	.	ID=gene:MMSYN1_0677;Name=;locus_tag=MMSYN1_0677;product=putative membrane protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	813370	813445	.	-	.	ID=gene:MMSYN1_0678;Name=;locus_tag=MMSYN1_0678;product=tRNA-Thr;rna_type=tRNA;gbkey=tRNA
+CP002027.1	syn1_summary	gene	813458	813533	.	-	.	ID=gene:MMSYN1_0679;Name=;locus_tag=MMSYN1_0679;product=tRNA-Val;rna_type=tRNA;gbkey=tRNA
+CP002027.1	syn1_summary	gene	813541	813616	.	-	.	ID=gene:MMSYN1_0680;Name=;locus_tag=MMSYN1_0680;product=tRNA-Glu;rna_type=tRNA;gbkey=tRNA
+CP002027.1	syn1_summary	gene	813624	813699	.	-	.	ID=gene:MMSYN1_0681;Name=;locus_tag=MMSYN1_0681;product=tRNA-Asn;rna_type=tRNA;gbkey=tRNA
+CP002027.1	syn1_summary	gene	813801	814964	.	-	.	ID=gene:MMSYN1_0682;Name=;locus_tag=MMSYN1_0682;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	815077	815832	.	-	.	ID=gene:MMSYN1_0683;Name=;locus_tag=MMSYN1_0683;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	815822	816688	.	-	.	ID=gene:MMSYN1_0684;Name=folD;locus_tag=MMSYN1_0684;gene=folD;product=bifunctional protein FolD;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	816697	818298	.	-	.	ID=gene:MMSYN1_0685;Name=;locus_tag=MMSYN1_0685;product=sodium transport protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	818377	819105	.	+	.	ID=gene:MMSYN1_0686;Name=;locus_tag=MMSYN1_0686;product=K+_ Na+ uptake protein integral membrane subunit;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	819132	820571	.	-	.	ID=gene:MMSYN1_0687;Name=gatB;locus_tag=MMSYN1_0687;gene=gatB;product=glutamyl-tRNA(Gln) amidotransferase_ B subunit;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	820573	822030	.	-	.	ID=gene:MMSYN1_0688;Name=gatA;locus_tag=MMSYN1_0688;gene=gatA;product=glutamyl-tRNA(Gln) amidotransferase subunit A (Glu-ADTsubunit A);rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	822030	822326	.	-	.	ID=gene:MMSYN1_0689;Name=gatC;locus_tag=MMSYN1_0689;gene=gatC;product=glutamyl-tRNA(Gln) amidotransferase_ C subunit;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	822328	824334	.	-	.	ID=gene:MMSYN1_0690;Name=ligA;locus_tag=MMSYN1_0690;gene=ligA;product=DNA ligase_ NAD-dependent;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	824338	826359	.	-	.	ID=gene:MMSYN1_0691;Name=;locus_tag=MMSYN1_0691;product=putative membrane protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	826362	827270	.	-	.	ID=gene:MMSYN1_0692;Name=;locus_tag=MMSYN1_0692;product=23S rRNA pseudouridine synthase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	827273	828241	.	-	.	ID=gene:MMSYN1_0693;Name=;locus_tag=MMSYN1_0693;product=conserved_ caax amino protease family;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	828297	828566	.	-	.	ID=gene:MMSYN1_0694;Name=;locus_tag=MMSYN1_0694;product=phosphocarrier_ HPr family;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	828631	830799	.	-	.	ID=gene:MMSYN1_0695;Name=;locus_tag=MMSYN1_0695;product=UvrD/REP helicase domain protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	830816	831571	.	-	.	ID=gene:MMSYN1_0696;Name=;locus_tag=MMSYN1_0696;product=RDD family protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	831571	832527	.	-	.	ID=gene:MMSYN1_0697;Name=;locus_tag=MMSYN1_0697;product=glycosyltransferase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	832678	833904	.	-	.	ID=gene:MMSYN1_0698;Name=;locus_tag=MMSYN1_0698;product=lipoprotein. putative;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	833993	834922	.	-	.	ID=gene:MMSYN1_0699;Name=msrA/B;locus_tag=MMSYN1_0699;gene=msrA/B;product=peptide methionine sulfoxide reductase MsrA/msrB;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	835036	837222	.	-	.	ID=gene:MMSYN1_0700;Name=;locus_tag=MMSYN1_0700;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	837470	839818	.	-	.	ID=gene:MMSYN1_0701;Name=;locus_tag=MMSYN1_0701;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	839827	840729	.	-	.	ID=gene:MMSYN1_0702;Name=;locus_tag=MMSYN1_0702;product=transmembrane protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	840856	842691	.	-	.	ID=gene:MMSYN1_0703;Name=;locus_tag=MMSYN1_0703;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	842694	843260	.	-	.	ID=gene:MMSYN1_0704;Name=;locus_tag=MMSYN1_0704;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	843263	844099	.	-	.	ID=gene:MMSYN1_0705;Name=;locus_tag=MMSYN1_0705;product=C-5 cytosine-specific DNA methylase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	844369	846117	.	-	.	ID=gene:MMSYN1_0706;Name=;locus_tag=MMSYN1_0706;product=alkylphosphonate ABC transporter_ permease component;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	846081	846830	.	-	.	ID=gene:MMSYN1_0707;Name=;locus_tag=MMSYN1_0707;product=alkylphosphonate ABC transporter_ ATP-binding component;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	846844	848307	.	-	.	ID=gene:MMSYN1_0708;Name=;locus_tag=MMSYN1_0708;product=alkylphosphonate ABC transporter_ substrate-bindin;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	848530	849393	.	-	.	ID=gene:MMSYN1_0710;Name=;locus_tag=MMSYN1_0710;product=hydrolase of the HAD family;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	849525	850715	.	+	.	ID=gene:MMSYN1_0711;Name=;locus_tag=MMSYN1_0711;product=aminotransferase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	850725	851126	.	+	.	ID=gene:MMSYN1_0712;Name=;locus_tag=MMSYN1_0712;product=endoribonuclease L-PSP_ putative;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	851162	852493	.	-	.	ID=gene:MMSYN1_0713;Name=;locus_tag=MMSYN1_0713;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	852523	853779	.	-	.	ID=gene:MMSYN1_0714;Name=;locus_tag=MMSYN1_0714;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	853966	855234	.	-	.	ID=gene:MMSYN1_0715;Name=;locus_tag=MMSYN1_0715;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	855376	856518	.	+	.	ID=gene:MMSYN1_0716;Name=;locus_tag=MMSYN1_0716;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	856724	856800	.	+	.	ID=gene:MMSYN1_0717;Name=;locus_tag=MMSYN1_0717;product=tRNA-Arg;rna_type=tRNA;gbkey=tRNA
+CP002027.1	syn1_summary	gene	856848	856924	.	+	.	ID=gene:MMSYN1_0718;Name=;locus_tag=MMSYN1_0718;product=tRNA-Pro;rna_type=tRNA;gbkey=tRNA
+CP002027.1	syn1_summary	gene	856935	857010	.	+	.	ID=gene:MMSYN1_0719;Name=;locus_tag=MMSYN1_0719;product=tRNA-Ala;rna_type=tRNA;gbkey=tRNA
+CP002027.1	syn1_summary	gene	857015	857091	.	+	.	ID=gene:MMSYN1_0720;Name=;locus_tag=MMSYN1_0720;product=tRNA-Met;rna_type=tRNA;gbkey=tRNA
+CP002027.1	syn1_summary	gene	857103	857179	.	+	.	ID=gene:MMSYN1_0721;Name=;locus_tag=MMSYN1_0721;product=tRNA-Met;rna_type=tRNA;gbkey=tRNA
+CP002027.1	syn1_summary	gene	857222	857314	.	+	.	ID=gene:MMSYN1_0722;Name=;locus_tag=MMSYN1_0722;product=tRNA-Ser;rna_type=tRNA;gbkey=tRNA
+CP002027.1	syn1_summary	gene	857337	857412	.	+	.	ID=gene:MMSYN1_0723;Name=;locus_tag=MMSYN1_0723;product=tRNA-Met;rna_type=tRNA;gbkey=tRNA
+CP002027.1	syn1_summary	gene	857415	857491	.	+	.	ID=gene:MMSYN1_0724;Name=;locus_tag=MMSYN1_0724;product=tRNA-Asp;rna_type=tRNA;gbkey=tRNA
+CP002027.1	syn1_summary	gene	857500	857575	.	+	.	ID=gene:MMSYN1_0725;Name=;locus_tag=MMSYN1_0725;product=tRNA-Phe;rna_type=tRNA;gbkey=tRNA
+CP002027.1	syn1_summary	gene	857683	858417	.	+	.	ID=gene:MMSYN1_0726;Name=nagB;locus_tag=MMSYN1_0726;gene=nagB;product=glucosamine-6-phosphate deaminase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	858515	859261	.	+	.	ID=gene:MMSYN1_0727;Name=tpiA;locus_tag=MMSYN1_0727;gene=tpiA;product=triose-phosphate isomerase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	859254	860090	.	+	.	ID=gene:MMSYN1_0728;Name=;locus_tag=MMSYN1_0728;product=HAD-superfamily hydrolase subfamily IIB_ protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	860093	861688	.	+	.	ID=gene:MMSYN1_0729;Name=gpmI;locus_tag=MMSYN1_0729;gene=gpmI;product=2_3-bisphosphoglycerate-independent phosphoglycerate mutase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	861788	862387	.	+	.	ID=gene:MMSYN1_0730;Name=;locus_tag=MMSYN1_0730;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	862389	863402	.	+	.	ID=gene:MMSYN1_0731;Name=;locus_tag=MMSYN1_0731;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	863454	864122	.	-	.	ID=gene:MMSYN1_0732;Name=deoC;locus_tag=MMSYN1_0732;gene=deoC;product=deoxyribose-phosphate aldolase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	864134	865810	.	-	.	ID=gene:MMSYN1_0733;Name=;locus_tag=MMSYN1_0733;product=phosphoglucomutase or phosphomannomutase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	865972	867285	.	+	.	ID=gene:MMSYN1_0734;Name=pdp;locus_tag=MMSYN1_0734;gene=pdp;product=pyrimidine-nucleoside phosphorylase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	867340	868071	.	-	.	ID=gene:MMSYN1_0735;Name=tnpB_4;locus_tag=MMSYN1_0735;gene=tnpB_4;product=IS1296 transposase protein B;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	868209	868751	.	-	.	ID=gene:MMSYN1_0736;Name=tnpA_4;locus_tag=MMSYN1_0736;gene=tnpA_4;product=IS1296 transposase protein A;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	868816	869103	.	-	.	ID=gene:MMSYN1_0737;Name=;locus_tag=MMSYN1_0737;product=PSEUDOGENE - PTS system_ fructose-specific iibc component;rna_type=pseudo;gbkey=pseudo
+CP002027.1	syn1_summary	gene	869142	869264	.	-	.	ID=gene:MMSYN1_0738;Name=;locus_tag=MMSYN1_0738;product=hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	869269	869403	.	-	.	ID=gene:MMSYN1_0739;Name=;locus_tag=MMSYN1_0739;product=PSEUDOGENE - PTS system_ fructose-specific family_ iiabc components;rna_type=pseudo;gbkey=pseudo
+CP002027.1	syn1_summary	gene	869453	869608	.	-	.	ID=gene:MMSYN1_0740;Name=;locus_tag=MMSYN1_0740;product=hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	869727	870719	.	-	.	ID=gene:MMSYN1_0741;Name=mmyCIIR;locus_tag=MMSYN1_0741;gene=mmyCIIR;product=PSEUDOGENE - CCTTC-recognizing Type II restriction modification system (MmyCII) endonuclease subunit;rna_type=pseudo;gbkey=pseudo
+CP002027.1	syn1_summary	gene	870721	873225	.	-	.	ID=gene:MMSYN1_0742;Name=mmyCIIM;locus_tag=MMSYN1_0742;gene=mmyCIIM;product=CCTTC-recognizing Type II restriction modification system (MmyCII) adenine/cytosine DNA methyltransferase subunit;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	873360	875396	.	-	.	ID=gene:MMSYN1_0743;Name=fruA;locus_tag=MMSYN1_0743;gene=fruA;product=PTS system_ Fructose specific IIB subunit family;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	875399	876334	.	-	.	ID=gene:MMSYN1_0744;Name=pfkB;locus_tag=MMSYN1_0744;gene=pfkB;product=1-phosphofructokinase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	876334	877032	.	-	.	ID=gene:MMSYN1_0745;Name=;locus_tag=MMSYN1_0745;product=transcriptional regulator of the fructose operon_ DeoR family;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	877185	878165	.	+	.	ID=gene:MMSYN1_0746;Name=;locus_tag=MMSYN1_0746;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	878368	879021	.	+	.	ID=gene:MMSYN1_0747;Name=;locus_tag=MMSYN1_0747;product=purine nucleoside phosphorylase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	879069	879533	.	-	.	ID=gene:MMSYN1_0748;Name=;locus_tag=MMSYN1_0748;product=IS1296 transposase EH;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	879588	880493	.	-	.	ID=gene:MMSYN1_0749;Name=;locus_tag=MMSYN1_0749;product=lysophospholipase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	880596	883649	.	-	.	ID=gene:MMSYN1_0750;Name=;locus_tag=MMSYN1_0750;product=viral A-type inclusion protein_ putative;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	883674	886715	.	-	.	ID=gene:MMSYN1_0751;Name=;locus_tag=MMSYN1_0751;product=viral A-type inclusion protein_ putative;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	887085	887657	.	+	.	ID=gene:MMSYN1_0752;Name=;locus_tag=MMSYN1_0752;product=cell filamentation protein (fic);rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	887865	888137	.	+	.	ID=gene:MMSYN1_0753;Name=;locus_tag=MMSYN1_0753;product=DNA-damage-inducible protein J;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	888176	889081	.	-	.	ID=gene:MMSYN1_0754;Name=mmyCIIIM1;locus_tag=MMSYN1_0754;gene=mmyCIIIM1;product=PSEUDOGENE - GCATC--recognizing Type II restriction modification system (MmyCIII) adenine DNA methyltransferase subunit 1;rna_type=pseudo;gbkey=pseudo
+CP002027.1	syn1_summary	gene	889074	890162	.	-	.	ID=gene:MMSYN1_0755;Name=mmyCIIIM2;locus_tag=MMSYN1_0755;gene=mmyCIIIM2;product=GCATC--recognizing Type II restriction modification system (MmyCIII) adenine DNA methyltransferase subunit 2;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	890279	892318	.	+	.	ID=gene:MMSYN1_0756;Name=mmyCIIIR;locus_tag=MMSYN1_0756;gene=mmyCIIIR;product=GCATC--recognizing Type II restriction modification system (MmyCIII) endonuclease subunit;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	892356	893441	.	-	.	ID=gene:MMSYN1_0757;Name=;locus_tag=MMSYN1_0757;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	893443	894831	.	-	.	ID=gene:MMSYN1_0758;Name=;locus_tag=MMSYN1_0758;product=beta-glucosidase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	894824	895702	.	-	.	ID=gene:MMSYN1_0759;Name=;locus_tag=MMSYN1_0759;product=sugar kinase_ ROK family;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	895704	896162	.	-	.	ID=gene:MMSYN1_0760;Name=;locus_tag=MMSYN1_0760;product=PTS system_ fructose-specific IIA component;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	896176	898842	.	-	.	ID=gene:MMSYN1_0761;Name=;locus_tag=MMSYN1_0761;product=glycosyl hydrolase_ family 38;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	898854	900695	.	-	.	ID=gene:MMSYN1_0762;Name=;locus_tag=MMSYN1_0762;product=PTS system_ fructose-specific iibc component;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	900710	901486	.	-	.	ID=gene:MMSYN1_0763;Name=;locus_tag=MMSYN1_0763;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	901652	902203	.	-	.	ID=gene:MMSYN1_0764;Name=hpt_2;locus_tag=MMSYN1_0764;gene=hpt_2;product=hypoxanthine phosphoribosyltransferase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	902239	903537	.	-	.	ID=gene:MMSYN1_0765;Name=purB;locus_tag=MMSYN1_0765;gene=purB;product=adenylosuccinate lyase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	903530	904828	.	-	.	ID=gene:MMSYN1_0766;Name=purA;locus_tag=MMSYN1_0766;gene=purA;product=adenylosuccinate synthase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	905049	905201	.	-	.	ID=gene:MMSYN1_0767;Name=;locus_tag=MMSYN1_0767;product=ribonucleoside-diphosphate reductase subunit alpha (Ribonucleotide reductase);rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	905182	905697	.	-	.	ID=gene:MMSYN1_0768;Name=mmyCIVR;locus_tag=MMSYN1_0768;gene=mmyCIVR;product=GANTC--recognizing Type II restriction modification system (MmyCIV) endonuclease subunit;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	905859	906578	.	-	.	ID=gene:MMSYN1_0769;Name=mmyCIVM;locus_tag=MMSYN1_0769;gene=mmyCIVM;product=GANTC--recognizing Type II restriction modification system (MmyCIV) adenine DNA methylase subunit;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	906639	907484	.	-	.	ID=gene:MMSYN1_0770;Name=;locus_tag=MMSYN1_0770;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	907590	909752	.	-	.	ID=gene:MMSYN1_0771;Name=nrdE;locus_tag=MMSYN1_0771;gene=nrdE;product=ribonucleoside-diphosphate reductase_ alpha subunit;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	909739	910212	.	-	.	ID=gene:MMSYN1_0772;Name=nrdI;locus_tag=MMSYN1_0772;gene=nrdI;product=NrdI protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	910221	911240	.	-	.	ID=gene:MMSYN1_0773;Name=nrdF;locus_tag=MMSYN1_0773;gene=nrdF;product=ribonucleoside-diphosphate reductase_ beta subunit;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	911539	911823	.	+	.	ID=gene:MMSYN1_0774;Name=secG;locus_tag=MMSYN1_0774;gene=secG;product=preprotein translocase_ SecG subunit;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	911859	913973	.	+	.	ID=gene:MMSYN1_0775;Name=;locus_tag=MMSYN1_0775;product=3'-5' exoribonuclease_ VacB/RNase II family;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	913983	914429	.	+	.	ID=gene:MMSYN1_0776;Name=smpB;locus_tag=MMSYN1_0776;gene=smpB;product=SsrA-binding protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	914429	914914	.	+	.	ID=gene:MMSYN1_0777;Name=;locus_tag=MMSYN1_0777;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	915034	915285	.	+	.	ID=gene:MMSYN1_0778;Name=;locus_tag=MMSYN1_0778;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	915336	917573	.	+	.	ID=gene:MMSYN1_0779;Name=;locus_tag=MMSYN1_0779;product=PTS system_ eiic domain protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	917651	918193	.	+	.	ID=gene:MMSYN1_0780;Name=tnpA_5;locus_tag=MMSYN1_0780;gene=tnpA_5;product=IS1296 transposase protein A;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	918331	919062	.	+	.	ID=gene:MMSYN1_0781;Name=tnpB_5;locus_tag=MMSYN1_0781;gene=tnpB_5;product=IS1296 transposase protein B;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	919157	920284	.	+	.	ID=gene:MMSYN1_0782;Name=;locus_tag=MMSYN1_0782;product=PSEUDOGENE - beta-lactamase;rna_type=pseudo;gbkey=pseudo
+CP002027.1	syn1_summary	gene	920380	921345	.	+	.	ID=gene:MMSYN1_0783;Name=;locus_tag=MMSYN1_0783;product=glucokinase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	921413	922345	.	-	.	ID=gene:MMSYN1_0784;Name=arcC_2;locus_tag=MMSYN1_0784;gene=arcC_2;product=carbamate kinase 1;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	922358	923821	.	-	.	ID=gene:MMSYN1_0785;Name=;locus_tag=MMSYN1_0785;product=arginine/ornithine antiporter;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	923900	924895	.	-	.	ID=gene:MMSYN1_0786;Name=arcB;locus_tag=MMSYN1_0786;gene=arcB;product=ornithine carbamoyltransferase (ArcB);rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	925156	927984	.	-	.	ID=gene:MMSYN1_0787;Name=mgtA;locus_tag=MMSYN1_0787;gene=mgtA;product=magnesium-importing ATPase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	928331	929518	.	+	.	ID=gene:MMSYN1_0788;Name=;locus_tag=MMSYN1_0788;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	929590	929889	.	-	.	ID=gene:MMSYN1_0789;Name=atpC;locus_tag=MMSYN1_0789;gene=atpC;product=ATP synthase_ delta subunit;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	929889	931316	.	-	.	ID=gene:MMSYN1_0790;Name=atpD_2;locus_tag=MMSYN1_0790;gene=atpD_2;product=ATP synthase F1_ beta subunit;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	931325	932167	.	-	.	ID=gene:MMSYN1_0791;Name=atpG;locus_tag=MMSYN1_0791;gene=atpG;product=ATP synthase F1_ gamma subunit;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	932169	933746	.	-	.	ID=gene:MMSYN1_0792;Name=atpA;locus_tag=MMSYN1_0792;gene=atpA;product=ATP synthase F1_ alpha subunit;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	933758	934303	.	-	.	ID=gene:MMSYN1_0793;Name=atpH;locus_tag=MMSYN1_0793;gene=atpH;product=ATP synthase F1_ delta subunit;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	934305	934850	.	-	.	ID=gene:MMSYN1_0794;Name=atpF;locus_tag=MMSYN1_0794;gene=atpF;product=ATP synthase F0_ B subunit;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	934879	935184	.	-	.	ID=gene:MMSYN1_0795;Name=atpE;locus_tag=MMSYN1_0795;gene=atpE;product=ATP synthase c chain;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	935214	936077	.	-	.	ID=gene:MMSYN1_0796;Name=atpB;locus_tag=MMSYN1_0796;gene=atpB;product=ATP synthase FO_ A subunit;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	936077	936313	.	-	.	ID=gene:MMSYN1_0797;Name=;locus_tag=MMSYN1_0797;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	936615	937238	.	-	.	ID=gene:MMSYN1_0798;Name=upp;locus_tag=MMSYN1_0798;gene=upp;product=uracil phosphoribosyltransferase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	937338	938579	.	-	.	ID=gene:MMSYN1_0799;Name=glyA;locus_tag=MMSYN1_0799;gene=glyA;product=glycine hydroxymethyltransferase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	938563	939006	.	-	.	ID=gene:MMSYN1_0800;Name=rpiB;locus_tag=MMSYN1_0800;gene=rpiB;product=ribose 5-phosphate isomerase B;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	939085	939381	.	+	.	ID=gene:MMSYN1_0801;Name=;locus_tag=MMSYN1_0801;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	939386	941581	.	-	.	ID=gene:MMSYN1_0802;Name=;locus_tag=MMSYN1_0802;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	941671	945438	.	-	.	ID=gene:MMSYN1_0803;Name=rpoC;locus_tag=MMSYN1_0803;gene=rpoC;product=DNA-directed RNA polymerase_ beta' subunit;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	945450	949325	.	-	.	ID=gene:MMSYN1_0804;Name=rpoB;locus_tag=MMSYN1_0804;gene=rpoB;product=DNA-directed RNA polymerase_ beta subunit;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	949315	950490	.	-	.	ID=gene:MMSYN1_0805;Name=;locus_tag=MMSYN1_0805;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	950661	951029	.	-	.	ID=gene:MMSYN1_0806;Name=rplL;locus_tag=MMSYN1_0806;gene=rplL;product=ribosomal protein L7/L12;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	951098	951595	.	-	.	ID=gene:MMSYN1_0807;Name=rplJ;locus_tag=MMSYN1_0807;gene=rplJ;product=50S ribosomal protein L10;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	951822	952502	.	-	.	ID=gene:MMSYN1_0809;Name=rplA;locus_tag=MMSYN1_0809;gene=rplA;product=ribosomal protein L1;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	952502	952930	.	-	.	ID=gene:MMSYN1_0810;Name=rplK;locus_tag=MMSYN1_0810;gene=rplK;product=ribosomal protein L11;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	953142	954020	.	-	.	ID=gene:MMSYN1_0811;Name=galU;locus_tag=MMSYN1_0811;gene=galU;product=UTP-glucose-1-phosphate uridylyltransferase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	954550	955926	.	-	.	ID=gene:MMSYN1_0812;Name=;locus_tag=MMSYN1_0812;product=glycosyltransferase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	956226	957224	.	+	.	ID=gene:MMSYN1_0813;Name=galE;locus_tag=MMSYN1_0813;gene=galE;product=UDP-glucose 4-epimerase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	957238	958425	.	+	.	ID=gene:MMSYN1_0814;Name=glf;locus_tag=MMSYN1_0814;gene=glf;product=UDP-galactopyranose mutase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	958511	958648	.	+	.	ID=gene:MMSYN1_0815;Name=;locus_tag=MMSYN1_0815;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	958936	959442	.	-	.	ID=gene:MMSYN1_0928;Name=;locus_tag=MMSYN1_0928;product=hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	959417	959686	.	+	.	ID=gene:MMSYN1_0929;Name=;locus_tag=MMSYN1_0929;product=conserved domain protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	959695	960048	.	+	.	ID=gene:MMSYN1_0816;Name=;locus_tag=MMSYN1_0816;product=integrase core domain protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	960185	961114	.	-	.	ID=gene:MMSYN1_0817;Name=;locus_tag=MMSYN1_0817;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	961127	962557	.	-	.	ID=gene:MMSYN1_0818;Name=;locus_tag=MMSYN1_0818;product=prolipoprotein diacylglyceryl transferase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	962566	963498	.	-	.	ID=gene:MMSYN1_0819;Name=trxB;locus_tag=MMSYN1_0819;gene=trxB;product=thioredoxin-disulfide reductase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	963482	965062	.	-	.	ID=gene:MMSYN1_0820;Name=;locus_tag=MMSYN1_0820;product=prolipoprotein diacylglyceryl transferase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	965073	966014	.	-	.	ID=gene:MMSYN1_0821;Name=hprK;locus_tag=MMSYN1_0821;gene=hprK;product=HPr kinase/phosphorylase (HPrK/P) (HPr(Ser)kinase/phosphorylase);rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	966098	966772	.	-	.	ID=gene:MMSYN1_0822;Name=;locus_tag=MMSYN1_0822;product=putative membrane protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	966789	967904	.	-	.	ID=gene:MMSYN1_0823;Name=folC;locus_tag=MMSYN1_0823;gene=folC;product=folate synthetase-polyglutamyl folate synthetase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	967897	970737	.	-	.	ID=gene:MMSYN1_0824;Name=uvrA;locus_tag=MMSYN1_0824;gene=uvrA;product=excinuclease ABC subunit A;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	970746	972743	.	-	.	ID=gene:MMSYN1_0825;Name=uvrB;locus_tag=MMSYN1_0825;gene=uvrB;product=excinuclease ABC subunit B;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	973028	973978	.	+	.	ID=gene:MMSYN1_0826;Name=holA;locus_tag=MMSYN1_0826;gene=holA;product=DNA polymerase III_ delta subunit;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	973981	975447	.	+	.	ID=gene:MMSYN1_0827;Name=;locus_tag=MMSYN1_0827;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	975613	975687	.	+	.	ID=gene:MMSYN1_0828;Name=;locus_tag=MMSYN1_0828;product=tRNA-Cys;rna_type=tRNA;gbkey=tRNA
+CP002027.1	syn1_summary	gene	975825	976622	.	+	.	ID=gene:MMSYN1_0829;Name=;locus_tag=MMSYN1_0829;product=deoxyribonuclease_ TatD family;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	976624	976884	.	+	.	ID=gene:MMSYN1_0830;Name=;locus_tag=MMSYN1_0830;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	977064	978098	.	+	.	ID=gene:MMSYN1_0831;Name=prs;locus_tag=MMSYN1_0831;gene=prs;product=ribose-Phosphate pyrophosphokinase (rppk) (phosphoribosylpyrophosphate synthetase) (p-rib-pp synthetase) (prpp synthetase);rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	978524	979084	.	+	.	ID=gene:MMSYN1_0832;Name=pth;locus_tag=MMSYN1_0832;gene=pth;product=aminoacyl-tRNA hydrolase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	979205	979648	.	+	.	ID=gene:MMSYN1_0833;Name=rplI;locus_tag=MMSYN1_0833;gene=rplI;product=ribosomal protein L9;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	979651	980967	.	+	.	ID=gene:MMSYN1_0834;Name=dnaB;locus_tag=MMSYN1_0834;gene=dnaB;product=replicative DNA helicase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	981034	982341	.	+	.	ID=gene:MMSYN1_0835;Name=;locus_tag=MMSYN1_0835;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	982483	983409	.	+	.	ID=gene:MMSYN1_0836;Name=;locus_tag=MMSYN1_0836;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	983418	984743	.	+	.	ID=gene:MMSYN1_0837;Name=cysS;locus_tag=MMSYN1_0837;gene=cysS;product=cysteine--tRNA ligase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	984745	985479	.	+	.	ID=gene:MMSYN1_0838;Name=;locus_tag=MMSYN1_0838;product=RNA methyltransferase_ TrmH family_ group 3;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	985701	986024	.	+	.	ID=gene:MMSYN1_0839;Name=secE;locus_tag=MMSYN1_0839;gene=secE;product=preprotein translocase_ SecE subunit;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	986041	986682	.	+	.	ID=gene:MMSYN1_0840;Name=nusG;locus_tag=MMSYN1_0840;gene=nusG;product=transcription antitermination protein nusG;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	987122	993043	.	+	.	ID=gene:MMSYN1_0841;Name=;locus_tag=MMSYN1_0841;product=hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	993053	996010	.	+	.	ID=gene:MMSYN1_0842;Name=;locus_tag=MMSYN1_0842;product=oligopeptide ABC transporter_ solute-binding protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	996010	997083	.	+	.	ID=gene:MMSYN1_0843;Name=;locus_tag=MMSYN1_0843;product=oligopeptide ABC transporter_ permease component;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	997085	998095	.	+	.	ID=gene:MMSYN1_0844;Name=;locus_tag=MMSYN1_0844;product=oligopeptide ABC transporter_ permease component;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	998103	999548	.	+	.	ID=gene:MMSYN1_0845;Name=;locus_tag=MMSYN1_0845;product=oligopeptide ABC transporter_ ATP-binding component;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	999541	1000863	.	+	.	ID=gene:MMSYN1_0846;Name=;locus_tag=MMSYN1_0846;product=oligopeptide ABC transporter_ ATP-binding component;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1000900	1001631	.	-	.	ID=gene:MMSYN1_0267;Name=tnpB_6;locus_tag=MMSYN1_0267;gene=tnpB_6;product=IS1296 transposase protein B;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1001769	1002311	.	-	.	ID=gene:MMSYN1_0265;Name=tnpA_6;locus_tag=MMSYN1_0265;gene=tnpA_6;product=IS1296 transposase protein A;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1002392	1002898	.	-	.	ID=gene:MMSYN1_0849;Name=;locus_tag=MMSYN1_0849;product=lipoprotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1003095	1003970	.	-	.	ID=gene:MMSYN1_0850;Name=;locus_tag=MMSYN1_0850;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1004037	1004219	.	-	.	ID=gene:MMSYN1_0851;Name=;locus_tag=MMSYN1_0851;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1004385	1004615	.	-	.	ID=gene:MMSYN1_0852;Name=;locus_tag=MMSYN1_0852;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1004605	1005324	.	-	.	ID=gene:MMSYN1_0853;Name=;locus_tag=MMSYN1_0853;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1005324	1005833	.	-	.	ID=gene:MMSYN1_0854;Name=;locus_tag=MMSYN1_0854;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1005833	1007533	.	-	.	ID=gene:MMSYN1_0855;Name=;locus_tag=MMSYN1_0855;product=PTS system_ iibc component_ putative;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1007610	1009322	.	-	.	ID=gene:MMSYN1_0856;Name=;locus_tag=MMSYN1_0856;product=PTS system_ iibc component_ putative;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1009630	1011018	.	+	.	ID=gene:MMSYN1_0858;Name=;locus_tag=MMSYN1_0858;product=putative transcriptional regulator;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1011005	1011820	.	-	.	ID=gene:MMSYN1_0857;Name=;locus_tag=MMSYN1_0857;product=SIS domain protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1012008	1013969	.	+	.	ID=gene:MMSYN1_0859;Name=;locus_tag=MMSYN1_0859;product=DNA topoisomerase domain protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1014116	1014841	.	-	.	ID=gene:MMSYN1_0860;Name=;locus_tag=MMSYN1_0860;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1015242	1016126	.	-	.	ID=gene:MMSYN1_0861;Name=;locus_tag=MMSYN1_0861;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1016113	1016943	.	-	.	ID=gene:MMSYN1_0862;Name=;locus_tag=MMSYN1_0862;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1016930	1018279	.	-	.	ID=gene:MMSYN1_0863;Name=;locus_tag=MMSYN1_0863;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1018257	1018961	.	-	.	ID=gene:MMSYN1_0864;Name=;locus_tag=MMSYN1_0864;product=ABC transporter_ ATP-binding protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1018963	1020834	.	-	.	ID=gene:MMSYN1_0865;Name=;locus_tag=MMSYN1_0865;product=ABC transporter_ permease protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1020973	1021860	.	-	.	ID=gene:MMSYN1_0866;Name=;locus_tag=MMSYN1_0866;product=putative liporotein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1021862	1022692	.	-	.	ID=gene:MMSYN1_0867;Name=;locus_tag=MMSYN1_0867;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1022679	1023872	.	-	.	ID=gene:MMSYN1_0868;Name=;locus_tag=MMSYN1_0868;product=lipoprotein. putative;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1023891	1025786	.	-	.	ID=gene:MMSYN1_0869;Name=;locus_tag=MMSYN1_0869;product=ABC transporter_ permease component;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1025896	1027662	.	-	.	ID=gene:MMSYN1_0870;Name=;locus_tag=MMSYN1_0870;product=C4-dicarboxylate anaerobic carrier superfamily;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1027731	1028438	.	-	.	ID=gene:MMSYN1_0871;Name=;locus_tag=MMSYN1_0871;product=zinc metalloprotease;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1028410	1029504	.	-	.	ID=gene:MMSYN1_0872;Name=ychF;locus_tag=MMSYN1_0872;gene=ychF;product=GTP-binding protein YchF;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1029540	1029740	.	-	.	ID=gene:MMSYN1_0873;Name=;locus_tag=MMSYN1_0873;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1029742	1030437	.	-	.	ID=gene:MMSYN1_0874;Name=gidB;locus_tag=MMSYN1_0874;gene=gidB;product=16S rRNA methyltransferase GidB;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1030437	1031033	.	-	.	ID=gene:MMSYN1_0875;Name=pgsA;locus_tag=MMSYN1_0875;gene=pgsA;product=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1031135	1032715	.	-	.	ID=gene:MMSYN1_0876;Name=;locus_tag=MMSYN1_0876;product=amino acid permease;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1032862	1033542	.	-	.	ID=gene:MMSYN1_0877;Name=;locus_tag=MMSYN1_0877;product=putative membrane protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1033514	1035007	.	-	.	ID=gene:MMSYN1_0878;Name=;locus_tag=MMSYN1_0878;product=amino acid permease;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1035110	1037767	.	-	.	ID=gene:MMSYN1_0879;Name=;locus_tag=MMSYN1_0879;product=E1-E2 ATPase subfamily_ putative;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1037851	1038822	.	-	.	ID=gene:MMSYN1_0880;Name=hup;locus_tag=MMSYN1_0880;gene=hup;product=PSEUDOGENE - DNA-binding protein HU;rna_type=pseudo;gbkey=pseudo
+CP002027.1	syn1_summary	gene	1039138	1040565	.	-	.	ID=gene:MMSYN1_0881;Name=;locus_tag=MMSYN1_0881;product=hexose phosphate transport protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1040770	1041414	.	-	.	ID=gene:MMSYN1_0882;Name=;locus_tag=MMSYN1_0882;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1041471	1042451	.	-	.	ID=gene:MMSYN1_0883;Name=asnA;locus_tag=MMSYN1_0883;gene=asnA;product=aspartate--ammonia ligase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1042655	1043413	.	+	.	ID=gene:MMSYN1_0884;Name=;locus_tag=MMSYN1_0884;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1043673	1045562	.	-	.	ID=gene:MMSYN1_0885;Name=gidA;locus_tag=MMSYN1_0885;gene=gidA;product=tRNA uridine 5-carboxymethylaminomethyl modification enzyme GidA;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1045710	1047287	.	-	.	ID=gene:MMSYN1_0886;Name=;locus_tag=MMSYN1_0886;product=proton/glutamate symporter;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1047307	1048650	.	-	.	ID=gene:MMSYN1_0887;Name=;locus_tag=MMSYN1_0887;product=PSEUDOGENE - pyridine nucleotide-disulphide oxidoreductase;rna_type=pseudo;gbkey=pseudo
+CP002027.1	syn1_summary	gene	1048868	1049368	.	+	.	ID=gene:MMSYN1_0888;Name=;locus_tag=MMSYN1_0888;product=pyrazinamidase/nicotinamidase;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1049414	1050091	.	-	.	ID=gene:MMSYN1_0889;Name=;locus_tag=MMSYN1_0889;product=PSEUDOGENE - conserved hypothetical protein_ authentic frameshift;rna_type=pseudo;gbkey=pseudo
+CP002027.1	syn1_summary	gene	1050248	1050847	.	-	.	ID=gene:MMSYN1_0890;Name=;locus_tag=MMSYN1_0890;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1051424	1052758	.	+	.	ID=gene:MMSYN1_0891;Name=lppQ;locus_tag=MMSYN1_0891;gene=lppQ;product=lipoprotein Q_ putative (LppQ);rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1053008	1054231	.	+	.	ID=gene:MMSYN1_0892;Name=;locus_tag=MMSYN1_0892;product=putative membrane protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1054362	1055567	.	+	.	ID=gene:MMSYN1_0893;Name=;locus_tag=MMSYN1_0893;product=putative membrane protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1055650	1057914	.	-	.	ID=gene:MMSYN1_0894;Name=;locus_tag=MMSYN1_0894;product=viral A-type inclusion protein repeat protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1057924	1060185	.	-	.	ID=gene:MMSYN1_0895;Name=;locus_tag=MMSYN1_0895;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1060502	1062757	.	-	.	ID=gene:MMSYN1_0896;Name=;locus_tag=MMSYN1_0896;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1062767	1065028	.	-	.	ID=gene:MMSYN1_0897;Name=;locus_tag=MMSYN1_0897;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1065223	1067475	.	-	.	ID=gene:MMSYN1_0898;Name=;locus_tag=MMSYN1_0898;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1067499	1069739	.	-	.	ID=gene:MMSYN1_0899;Name=;locus_tag=MMSYN1_0899;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1070055	1070690	.	+	.	ID=gene:MMSYN1_0900;Name=vlcF;locus_tag=MMSYN1_0900;gene=vlcF;product=lipoprotein_ putative (VlcF);rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1070923	1071534	.	+	.	ID=gene:MMSYN1_0901;Name=vlcG;locus_tag=MMSYN1_0901;gene=vlcG;product=lipoprotein_ putative (VlcG);rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1071824	1072303	.	+	.	ID=gene:MMSYN1_0902;Name=vlcH;locus_tag=MMSYN1_0902;gene=vlcH;product=lipoprotein_ putative (VlcH);rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1072804	1073379	.	+	.	ID=gene:MMSYN1_0903;Name=vlcI;locus_tag=MMSYN1_0903;gene=vlcI;product=lipoprotein (VlcI);rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1073640	1074323	.	+	.	ID=gene:MMSYN1_0904;Name=vlcJ;locus_tag=MMSYN1_0904;gene=vlcJ;product=prolipoprotein_ putative (VlcJ);rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1074592	1074750	.	-	.	ID=gene:MMSYN1_0905;Name=;locus_tag=MMSYN1_0905;product=PSEUDOGENE - AAA family ATPase;rna_type=pseudo;gbkey=pseudo
+CP002027.1	syn1_summary	gene	1075251	1075967	.	-	.	ID=gene:MMSYN1_0906;Name=;locus_tag=MMSYN1_0906;product=choline/ethanolamine kinase_ putative;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1075967	1076761	.	-	.	ID=gene:MMSYN1_0907;Name=;locus_tag=MMSYN1_0907;product=conserved hypothetical protein;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1076838	1078028	.	-	.	ID=gene:MMSYN1_0908;Name=oxaA;locus_tag=MMSYN1_0908;gene=oxaA;product=membrane protein OxaA;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1078046	1078375	.	-	.	ID=gene:MMSYN1_0909;Name=rnpA;locus_tag=MMSYN1_0909;gene=rnpA;product=ribonuclease P protein component;rna_type=mRNA;gbkey=mRNA
+CP002027.1	syn1_summary	gene	1078382	1078516	.	-	.	ID=gene:MMSYN1_0910;Name=rpmH;locus_tag=MMSYN1_0910;gene=rpmH;product=ribosomal protein L34;rna_type=mRNA;gbkey=mRNA
