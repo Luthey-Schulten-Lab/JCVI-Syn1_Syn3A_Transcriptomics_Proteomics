@@ -14,6 +14,7 @@
 *.bam
 *.bam.bai
 *.bai
+*.csi
 *.cram
 
 # ---- indices / derived reference artefacts (rebuild from the FASTA) ----
@@ -43,6 +44,10 @@ depth_bedgraph/
 
 # ---- known oversized intermediates (100-500 MB each) ----
 isoform_membership.tsv
+isoform_clusters_annotated.tsv
+isoform_clusters_annotated.xlsx
+raw_isoforms_precluster.tsv
+all.trailingA.tsv
 *read_qc.tsv
 blast_hits_*.tsv
 

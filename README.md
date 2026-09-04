@@ -16,9 +16,10 @@ This repository holds the complete pipeline, from raw-read retrieval to the figu
 .
 ├── Genomes_Input/            reference genomes (FASTA + GFF) for both organisms
 │
-├── Syn1_Transcriptomics/     syn1 PacBio + ONT (2 runs) + Illumina: read processing, isoforms, per-gene TPM
-├── Syn3A_Transcriptomics/    syn3A ONT + Illumina: read processing, isoforms, per-gene TPM
-├── RNAseq_Comparison/        cross-platform / cross-run TPM and read-length comparison
+├── Syn1_Transcriptomics/     syn1 PacBio + ONT (2 runs) + Illumina: read processing, isoforms
+├── Syn3A_Transcriptomics/    syn3A ONT + Illumina: read processing
+├── Syn1_Syn3A_Transcriptomics/  per-gene TPM for every library of both organisms,
+│                             and the cross-platform comparison panels
 │
 ├── Syn1_Operon/              syn1 operon segmentation, annotation, and visualization (459 operons)
 │
@@ -71,15 +72,11 @@ flowchart TD
         PB["PacBio HiFi"] --> PBP["PacBio_Processing"] --> ISO["Isoforms_PacBio"]
         ONT1["ONT direct-RNA<br/>2 runs"] --> ONTP1["ONT_Processing"]
         ILL1["Illumina"] --> ILP1["Illumina_Processing"]
-        PBP --> TPM1["Gene_TPM"]
-        ILP1 --> TPM1
     end
 
     subgraph SYN3["Syn3A transcriptome"]
         ONT["ONT direct-RNA"] --> ONTP["ONT_Processing"]
         ILL3["Illumina"] --> ILP3["Illumina_Processing"]
-        ONTP --> TPM3["Gene_TPM"]
-        ILP3 --> TPM3
     end
 
     PROT["Syn1_Syn3A_Proteomics"]
@@ -87,14 +84,14 @@ flowchart TD
     ISO --> OPN["Syn1_Operon<br/>459 operons"]
     ISO --> RNASE["Syn1_RNase"]
     ISO --> NOV["Syn1_Novel_ORF"]
-    TPM1 --> CORR["Syn1_Corr_RNA_Proteins"]
+    SYN1 --> CORR["Syn1_Corr_RNA_Proteins"]
     PROT --> CORR
-    TPM3 --> S3C["Syn3A_Corr_RNA_Proteins"]
+    SYN3 --> S3C["Syn3A_Corr_RNA_Proteins"]
     S3C --> PROT
     OPN --> GR["Genome_Reduction<br/>syn1 → syn3A"]
     PROT --> GR
-    TPM1 --> GR
-    TPM3 --> GR
+    SYN1 --> GR
+    SYN3 --> GR
     ONTP1 --> GR
     ONTP --> GR
 
@@ -104,7 +101,7 @@ flowchart TD
     PROT --> VIZ
     GR --> VIZ
 
-    PBP --> RC["RNAseq_Comparison<br/>cross-platform QC"]
+    PBP --> RC["Syn1_Syn3A_Transcriptomics<br/>per-gene TPM + cross-platform QC"]
     ILP1 --> RC
     ONTP1 --> RC
     ILP3 --> RC
@@ -125,13 +122,12 @@ Run the stages in this order; each folder's scripts read the outputs of the stag
 1. **Retrieve raw reads** — bash scripts in the `*_Raw/` folders download FASTQs from the NCBI SRA (`*_Transcriptomics/{PacBio,Illumina,ONT}/*_Raw/`).
 2. **Process reads** — the `*_Processing/` folders map reads (minimap2 for long reads, bowtie2 for Illumina), sort/index with samtools, and emit per-strand depth bedGraphs. The syn1 ONT folder processes both runs separately (`syn1.ONT.rep{1,2}.sorted.bam`) plus a merged browser track; run 2 is sequenced 3′→5′ and is reoriented during mapping.
 3. **Cluster isoforms** — `Isoforms_PacBio/` (syn1) and `Isoform_Cluster/` (syn3A) collapse full-length PacBio reads into isoform clusters.
-4. **Per-gene TPM** — `Gene_TPM/` computes sense/antisense TPM per gene from the depth tracks.
-5. **Cross-platform comparison** — `RNAseq_Comparison/` computes per-gene TPM for every library (syn1 PacBio / Illumina / ONT run 1 / ONT run 2, syn3A ONT / Illumina) and builds the read-length and platform-agreement panels.
-6. **Proteome** — `Syn1_Syn3A_Proteomics/` builds the per-protein relative (iPM) and absolute abundance tables.
-7. **Operons** — `Syn1_Operon/` segments and annotates operons from the isoforms, with promoter and terminator signatures.
-8. **Per-organism analyses** — `Syn1_Corr_RNA_Proteins/` (RNA↔protein correlation), `Syn3A_Corr_RNA_Proteins/` (absolute RNA copies per cell, fed into the proteome browser), `Syn1_RNase/` (RNA processing + ribonuclease cleavage-site mapping), `Syn1_Novel_ORF/` (antisense / intergenic / novel ORFs).
-9. **Genome reduction** — `Genome_Reduction/` runs scripts `01`→`10` in numeric order to recast the syn1→syn3A deletions as operon junctions and quantify the transcriptome/proteome reallocation. Run with `Genome_Reduction/` as the working directory.
-10. **Browse any gene** — `Transcription_Visualization/` draws every library over a region of your choosing (see below). Nothing downstream depends on it, so run it whenever you want to look at a gene.
+4. **Per-gene TPM and cross-platform comparison** — `Syn1_Syn3A_Transcriptomics/Gene_TPM.py` computes sense and antisense TPM per gene for every library (syn1 Illumina ×3, PacBio, ONT run 1 / run 2 / merged; syn3A Illumina, ONT) from the depth tracks, writing one table per organism: `syn1_TPM.tsv` (911 loci) and `syn3A_TPM.tsv` (496 loci). The platform-agreement panels are built from those two tables. `Calc_Abundances_syn3A.py` then converts the syn3A table into absolute RNA copies per cell (`syn3A_rna_abundances.tsv`) by the Breuer *et al.* 2019 mass balance, which the proteomics stages consume.
+5. **Proteome** — `Syn1_Syn3A_Proteomics/` builds the per-protein relative (iPM) and absolute abundance tables.
+6. **Operons** — `Syn1_Operon/` segments and annotates operons from the isoforms, with promoter and terminator signatures.
+7. **Per-organism analyses** — `Syn1_Corr_RNA_Proteins/` (RNA↔protein correlation), `Syn3A_Corr_RNA_Proteins/` (syn3A RNA↔protein correlation), `Syn1_RNase/` (RNA processing + ribonuclease cleavage-site mapping), `Syn1_Novel_ORF/` (antisense / intergenic / novel ORFs).
+8. **Genome reduction** — `Genome_Reduction/` runs scripts `01`→`10` in numeric order to recast the syn1→syn3A deletions as operon junctions and quantify the transcriptome/proteome reallocation. Run with `Genome_Reduction/` as the working directory.
+9. **Browse any gene** — `Transcription_Visualization/` draws every library over a region of your choosing (see below). Nothing downstream depends on it, so run it whenever you want to look at a gene.
 
 > Most Python scripts carry their full method, parameters, and a result summary in a header docstring, and write a companion `.txt` log next to their outputs.
 
