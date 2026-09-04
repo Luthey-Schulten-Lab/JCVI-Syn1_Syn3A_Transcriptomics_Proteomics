@@ -23,7 +23,7 @@ This repository holds the complete pipeline, from raw-read retrieval to the figu
 │
 ├── Syn1_Operon/              syn1 operon segmentation, annotation, and visualization (459 operons)
 │
-├── Syn1_Syn3A_Proteomics/    proteomics tables (relative iPM + absolute copy numbers) for both
+├── Syn1_Syn3A_Proteomics/    per-protein abundance and curated function, both organisms
 ├── Syn1_Corr_RNA_Proteins/   syn1 transcriptome × proteome correlation and residual analysis; protein copy number quantification
 ├── Syn3A_Corr_RNA_Proteins/  syn3A transcriptome × proteome correlation; protein copy number quantification
 ├── Syn1_RNase/               RNA-processing / ribonuclease analysis (3' erosion)
@@ -36,7 +36,7 @@ This repository holds the complete pipeline, from raw-read retrieval to the figu
 └── env/                      conda environment specification
 ```
 
-A detailed, file-level map of every script and its outputs lives in [`CLAUDE.md`](CLAUDE.md); output conventions are in [`OUTPUT.md`](OUTPUT.md).
+Most scripts carry their method, parameters and a result summary in a header docstring; output conventions are in [`OUTPUT.md`](OUTPUT.md).
 
 ---
 
@@ -123,7 +123,7 @@ Run the stages in this order; each folder's scripts read the outputs of the stag
 2. **Process reads** — the `*_Processing/` folders map reads (minimap2 for long reads, bowtie2 for Illumina), sort/index with samtools, and emit per-strand depth bedGraphs. The syn1 ONT folder processes both runs separately (`syn1.ONT.rep{1,2}.sorted.bam`) plus a merged browser track; run 2 is sequenced 3′→5′ and is reoriented during mapping.
 3. **Cluster isoforms** — one per organism, same algorithm and parameters: `Syn1_Transcriptomics/Isoforms_PacBio/` collapses the full-length syn1 PacBio reads, and `Syn3A_Transcriptomics/Isoforms_ONT/` the syn3A ONT reads, into isoform clusters.
 4. **Per-gene TPM and cross-platform comparison** — `Syn1_Syn3A_Transcriptomics/Gene_TPM.py` computes sense and antisense TPM per gene for every library (syn1 Illumina ×3, PacBio, ONT run 1 / run 2 / merged; syn3A Illumina, ONT) from the depth tracks, writing one table per organism: `syn1_TPM.tsv` (911 loci) and `syn3A_TPM.tsv` (496 loci). The platform-agreement panels are built from those two tables. `Calc_Abundances_syn3A.py` then converts the syn3A table into absolute RNA copies per cell (`syn3A_rna_abundances.tsv`) by the Breuer *et al.* 2019 mass balance, which the proteomics stages consume.
-5. **Proteome** — `Syn1_Syn3A_Proteomics/` builds the per-protein relative (iPM) and absolute abundance tables.
+5. **Proteome** — `Syn1_Syn3A_Proteomics/Proteome_Syn1_Syn3A.ipynb` converts mass-spectrometry iBAQ into absolute protein copies per cell for both organisms, adds syn1 localization (DeepTMHMM + SignalP) and the curated syn3A function hierarchy, and compares the two. It writes `syn1_proteome.tsv` and `syn3A_proteome.tsv` for the downstream stages, matching workbooks for distribution, and two interactive pages (see below).
 6. **Operons** — `Syn1_Operon/` segments and annotates operons from the isoforms, with promoter and terminator signatures.
 7. **Per-organism analyses** — `Syn1_Corr_RNA_Proteins/` (RNA↔protein correlation), `Syn3A_Corr_RNA_Proteins/` (syn3A RNA↔protein correlation), `Syn1_RNase/` (RNA processing + ribonuclease cleavage-site mapping), `Syn1_Novel_ORF/` (antisense / intergenic / novel ORFs).
 8. **Genome reduction** — `Genome_Reduction/` runs scripts `01`→`10` in numeric order to recast the syn1→syn3A deletions as operon junctions and quantify the transcriptome/proteome reallocation. Run with `Genome_Reduction/` as the working directory.
@@ -147,7 +147,23 @@ tv.show(R)
 
 One call stacks **every RNA-seq library over that region in a single figure** — syn1 PacBio, ONT run 1, ONT run 2 and Illumina; syn3A ONT and Illumina — each as a read stack over its own depth track, above gene arrows for both organisms. The window, anchor, gene lists, operon bracket, TSS and terminator marks, and the red *absent from Syn3A* deletion bands are all derived from the pipeline tables, so a gene name is the only input. Every call writes a PDF, a PNG and a `_stats.txt` (per-gene depth, read counts, protein copies per cell, promoter −10 scan, predicted terminators) into `Transcription_Visualization/regions/`.
 
-It reads the depth bedGraphs and BAMs from steps 2–3, the operon map from step 7, the proteomics tables from step 6, and the deletion map from step 9 — so run those first. Options and conventions are documented in [`Transcription_Visualization/README.md`](Transcription_Visualization/README.md).
+It reads the depth bedGraphs and BAMs from steps 2–3, the proteome tables from step 5, the operon map from step 6, and the deletion map from step 8 — so run those first.
+
+---
+
+## Browsing the proteome
+
+Step 5 writes two self-contained HTML pages — open either in a browser, no server needed:
+
+- `Syn1_Syn3A_Proteomics/syn3A_proteome.html` — the syn3A proteome under its curated
+  Primary › Secondary › Tertiary function hierarchy. Click any function to list its
+  proteins.
+- `Syn1_Syn3A_Proteomics/syn1_vs_syn3A_proteome.html` — the same table joined across
+  both organisms, grouped by function and by what genome reduction did to each locus.
+
+Both give every column a filter box (text matches anywhere; `>5`, `<=0.1`, `1..10`, `*`
+for any value, `-` for blanks), sortable headers, and CSV/Excel download of whatever is
+on screen.
 
 ---
 
@@ -158,7 +174,7 @@ It reads the depth bedGraphs and BAMs from steps 2–3, the operon map from step
 | **S1** | `operon.xlsx` — per-operon table (boundaries, signals, complexes) | `Syn1_Operon/build_operon_xlsx.py` |
 | **S2** | `syn1_omics.xlsx` — paired transcriptome + proteome for 911 syn1 genes | `Syn1_Corr_RNA_Proteins/` |
 | **S3** | `genome_reduction.xlsx` — deletions, junctions, per-gene expression change | `Genome_Reduction/` |
-| **S4** | `Supplementary_Data_S4_QC.zip` — RNA-sample QC reports | `build_S4_qc.py` |
+| **S4** | `Supplementary_Data_S4_QC.zip` — RNA-sample QC reports | assembled from the `*_Processing/qc/` reports of step 2 |
 
 ---
 
