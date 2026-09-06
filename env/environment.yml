@@ -20,7 +20,6 @@ dependencies:
   - pandas=2.3
   - scipy=1.14
   - matplotlib-base=3.10     # -base: figures are written to PDF/PNG, no GUI toolkit needed
-  - statsmodels=0.14
   - scikit-learn=1.7
   - openpyxl=3.1             # pandas ExcelWriter engine for the .xlsx Supplementary Data
   - plotly=6.6
@@ -32,7 +31,7 @@ dependencies:
   - biopython=1.85
   - pysam=0.22               # BAM access and per-base depth
   - viennarna=2.6            # provides both `import RNA` and the RNAfold CLI
-  - ostir=1.1                # translation-initiation rates (Syn3A_Corr_RNA_Proteins)
+  - ostir=1.1                # translation-initiation rates (Syn1_Syn3A_Corr_RNA_Proteins)
 
   # ---- notebooks ----------------------------------------------------------
   - jupyterlab=4.4

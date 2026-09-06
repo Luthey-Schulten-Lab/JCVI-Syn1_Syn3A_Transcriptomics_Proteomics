@@ -24,8 +24,8 @@ This repository holds the complete pipeline, from raw-read retrieval to the figu
 ├── Syn1_Operon/              syn1 operon segmentation, annotation, and visualization (459 operons)
 │
 ├── Syn1_Syn3A_Proteomics/    per-protein abundance and curated function, both organisms
-├── Syn1_Corr_RNA_Proteins/   syn1 transcriptome × proteome correlation and residual analysis; protein copy number quantification
-├── Syn3A_Corr_RNA_Proteins/  syn3A transcriptome × proteome correlation; protein copy number quantification
+├── Syn1_Syn3A_Corr_RNA_Proteins/  transcriptome × proteome correlation and
+│                             residual analysis, both organisms
 ├── Syn1_RNase/               RNA-processing / ribonuclease analysis (3' erosion)
 ├── Syn1_Novel_ORF/           novel-ORF / antisense / intergenic transcription discovery
 │
@@ -84,10 +84,11 @@ flowchart TD
     ISO --> OPN["Syn1_Operon<br/>459 operons"]
     ISO --> RNASE["Syn1_RNase"]
     ISO --> NOV["Syn1_Novel_ORF"]
-    SYN1 --> CORR["Syn1_Corr_RNA_Proteins"]
+    SYN1 --> TPM["Syn1_Syn3A_Transcriptomics<br/>per-gene TPM"]
+    SYN3 --> TPM
+    TPM --> PROT
+    TPM --> CORR["Syn1_Syn3A_Corr_RNA_Proteins"]
     PROT --> CORR
-    SYN3 --> S3C["Syn3A_Corr_RNA_Proteins"]
-    S3C --> PROT
     OPN --> GR["Genome_Reduction<br/>syn1 → syn3A"]
     PROT --> GR
     SYN1 --> GR
@@ -125,7 +126,7 @@ Run the stages in this order; each folder's scripts read the outputs of the stag
 4. **Per-gene TPM and cross-platform comparison** — `Syn1_Syn3A_Transcriptomics/Gene_TPM.py` computes sense and antisense TPM per gene for every library (syn1 Illumina ×3, PacBio, ONT run 1 / run 2 / merged; syn3A Illumina, ONT) from the depth tracks, writing one table per organism: `syn1_TPM.tsv` (911 loci) and `syn3A_TPM.tsv` (496 loci). The platform-agreement panels are built from those two tables. `Calc_Abundances_syn3A.py` then converts the syn3A table into absolute RNA copies per cell (`syn3A_rna_abundances.tsv`) by the Breuer *et al.* 2019 mass balance, which the proteomics stages consume.
 5. **Proteome** — `Syn1_Syn3A_Proteomics/Proteome_Syn1_Syn3A.ipynb` converts mass-spectrometry iBAQ into absolute protein copies per cell for both organisms, adds syn1 localization (DeepTMHMM + SignalP) and the curated syn3A function hierarchy, and compares the two. It writes `syn1_proteome.tsv` and `syn3A_proteome.tsv` for the downstream stages, matching workbooks for distribution, and two interactive pages (see below).
 6. **Operons** — `Syn1_Operon/` segments and annotates operons from the isoforms, with promoter and terminator signatures.
-7. **Per-organism analyses** — `Syn1_Corr_RNA_Proteins/` (RNA↔protein correlation), `Syn3A_Corr_RNA_Proteins/` (syn3A RNA↔protein correlation), `Syn1_RNase/` (RNA processing + ribonuclease cleavage-site mapping), `Syn1_Novel_ORF/` (antisense / intergenic / novel ORFs).
+7. **Per-organism analyses** — `Syn1_Syn3A_Corr_RNA_Proteins/` (RNA↔protein correlation, one script per organism), `Syn1_RNase/` (RNA processing + ribonuclease cleavage-site mapping), `Syn1_Novel_ORF/` (antisense / intergenic / novel ORFs).
 8. **Genome reduction** — `Genome_Reduction/` runs scripts `01`→`10` in numeric order to recast the syn1→syn3A deletions as operon junctions and quantify the transcriptome/proteome reallocation. Run with `Genome_Reduction/` as the working directory.
 9. **Browse any gene** — `Transcription_Visualization/` draws every library over a region of your choosing (see below). Nothing downstream depends on it, so run it whenever you want to look at a gene.
 
@@ -172,7 +173,7 @@ on screen.
 | | File | Built by |
 |---|---|---|
 | **S1** | `operon.xlsx` — per-operon table (boundaries, signals, complexes) | `Syn1_Operon/build_operon_xlsx.py` |
-| **S2** | `syn1_omics.xlsx` — paired transcriptome + proteome for 911 syn1 genes | `Syn1_Corr_RNA_Proteins/` |
+| **S2** | `syn1_omics.xlsx` — paired transcriptome + proteome for 911 syn1 genes | `Syn1_Syn3A_Corr_RNA_Proteins/` |
 | **S3** | `genome_reduction.xlsx` — deletions, junctions, per-gene expression change | `Genome_Reduction/` |
 | **S4** | `Supplementary_Data_S4_QC.zip` — RNA-sample QC reports | assembled from the `*_Processing/qc/` reports of step 2 |
 

@@ -7,7 +7,7 @@ for all RNA classes (mRNA, rRNA, tRNA, ncRNA).
 
 Cleaned and re-homed from
   MinimalCell_Motif-Identification_RNAseq/Omic_Quantification/Calc_Abundances.ipynb
-and rewired to this project's data. Moved here from Syn3A_Corr_RNA_Proteins/ on
+and rewired to this project's data. Moved here from the syn3A RNA-protein folder on
 2026-09-04: every input is transcriptomic (the syn3A TPM table sits in this very
 folder), it correlates nothing with protein, and both of its consumers --
 Syn1_Syn3A_Proteomics and Genome_Reduction/11_rPtns.py -- are downstream of this

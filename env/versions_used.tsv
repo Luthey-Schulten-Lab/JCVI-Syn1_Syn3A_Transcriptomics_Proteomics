@@ -19,7 +19,6 @@ python-sci	numpy	2.2.6	conda-forge	2.2.6	array math throughout
 python-sci	pandas	2.3.1	conda-forge	2.3.3	every table read and written
 python-sci	scipy	1.14.1	conda-forge; dead pip 1.15.3 dist-info also present	1.14.1	statistics, correlation, signal processing
 python-sci	matplotlib	3.10.1	conda-forge, matplotlib-base; dead pip 3.10.3 dist-info also present	3.10.9	every figure (PDF, pdf.fonttype 42)
-python-sci	statsmodels	0.14.5	conda-forge	0.14.6	Syn1_Corr_RNA_Proteins/Translation_Residual_L3_degradation.py
 python-sci	scikit-learn	1.7.0	pip (no conda record)	1.7.2	LinearRegression in Translation_Residual_L1_initiation.py
 python-sci	openpyxl	3.1.5	conda-forge	3.1.5	pandas ExcelWriter engine for all .xlsx Supplementary Data
 python-sci	plotly	6.6.0	conda-forge; dead pip 6.2.0 dist-info also present	6.6.0	Genome_Reduction/03_visualize.py
