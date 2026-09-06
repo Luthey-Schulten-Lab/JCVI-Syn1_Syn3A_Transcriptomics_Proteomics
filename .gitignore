@@ -44,9 +44,12 @@ depth_bedgraph/
 
 # ---- known oversized intermediates (100-500 MB each) ----
 isoform_membership.tsv
+Syn1_Operon/operon_plots/
 isoform_clusters_annotated.tsv
 isoform_clusters_annotated.xlsx
 raw_isoforms_precluster.tsv
+Syn1_Novel_ORF/candidate_orfs/candidate_orfs_ostir.tsv
+Syn1_Novel_ORF/candidate_orfs/candidate_orfs_scored.tsv
 all.trailingA.tsv
 *read_qc.tsv
 blast_hits_*.tsv

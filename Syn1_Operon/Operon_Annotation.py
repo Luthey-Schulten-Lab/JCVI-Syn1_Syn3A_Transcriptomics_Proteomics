@@ -372,25 +372,24 @@ long_3utr[['operon_id', 'strand', 'locus_tag', 'gene_name', 'utr3_bp']] \
     .sort_values('utr3_bp', ascending=False) \
     .to_csv('annotation/canonical/long_3UTR/operon_ids.tsv', sep='\t', index=False)
 
-# Copy plots
-for opid in long_5utr['operon_id']:
-    src = f'operon_plots/{opid}_wdepth.pdf'
-    dst = f'annotation/canonical/long_5UTR/{opid}_wdepth.pdf'
-    if os.path.exists(src):
-        shutil.copy2(src, dst)
-    else:
-        print(f"  [warn] plot not found: {src}")
+# Copy plots. operon_plots/ is written by Operon_Visualization.ipynb; if that has
+# not been run the copies are skipped and only the operon_ids.tsv lists are produced.
+def copy_operon_plots(operon_ids, dest):
+    n = 0
+    for opid in operon_ids:
+        src = f'operon_plots/{opid}_wdepth.pdf'
+        if os.path.exists(src):
+            shutil.copy2(src, f'{dest}/{opid}_wdepth.pdf')
+            n += 1
+        else:
+            print(f"  [warn] plot not found: {src}")
+    return n
 
-for opid in long_3utr['operon_id']:
-    src = f'operon_plots/{opid}_wdepth.pdf'
-    dst = f'annotation/canonical/long_3UTR/{opid}_wdepth.pdf'
-    if os.path.exists(src):
-        shutil.copy2(src, dst)
-    else:
-        print(f"  [warn] plot not found: {src}")
+n5 = copy_operon_plots(long_5utr['operon_id'], 'annotation/canonical/long_5UTR')
+n3 = copy_operon_plots(long_3utr['operon_id'], 'annotation/canonical/long_3UTR')
 
-print(f"\nCopied {len(long_5utr)} plots → annotation/canonical/long_5UTR/")
-print(f"Copied {len(long_3utr)} plots → annotation/canonical/long_3UTR/")
+print(f"\nCopied {n5}/{len(long_5utr)} plots → annotation/canonical/long_5UTR/")
+print(f"Copied {n3}/{len(long_3utr)} plots → annotation/canonical/long_3UTR/")
 
 
 # ## Promoters (leading and internal)
